@@ -2,6 +2,7 @@ from requests import get
 from requests.exceptions import RequestException
 from contextlib import closing
 from bs4 import BeautifulSoup
+import random
 
 def simple_get(url):
     try:
@@ -23,17 +24,113 @@ def log_error(e):
     print(e)
 
 
-#type 0=scenetransition,1=dialogue
+
+characters=[]
+def getCharacterId(name):
+    for char in characters:
+        if(char.name==name):
+            return char.id
+    return -1
+class Character:
+    def __init__(self,name):
+        self.name=name
+        self.id=len(characters)
+    def __str__(self):
+        return "CHARACTER {0}: '{1}'".format(self.id,self.name)
+
+tokens={}
+detokens={}
+def toke(str):
+    tokensToReturn=[]
+    for c in str:
+        if c in tokens:
+            tokensToReturn.append(tokens[c])
+        else:
+            tokens[c]=len(tokens)
+            detokens[len(tokens)]=c
+            tokensToReturn.append(tokens[c])
+
+    return tokensToReturn
+    #for char in characters:
+    #    if (line.text.find(char.name) > -1):
+    #        line.charIds.append(char.id)
+def detoke(tokensToDetoke):
+    res=""
+    for t in tokensToDetoke:
+        res=res+detokens[t+1]
+    return res
+
+lineTypes=["MISC","SCENE","DESCRIPTION","DIALOGUE"]
 class Line:
-    def __init__(self,type,prefix,text):
+    def __init__(self,type,charIds,text):
         self.type=type
-        self.prefix=prefix
-        self.text=text
+        self.charIds=charIds
+        self.text=text.lower()
+        self.tokens=toke(text)
+    def __str__(self):
+        return  "|{0}| characters: {1} '{2}'".format(lineTypes[self.type],self.charIds,self.text)
+
+
+def addLine(lineType,charList,text):
+    charIds=[]
+    for char in charList:
+        char=char.lower()
+        charId=getCharacterId(char)
+        if(charId==-1):
+            newChar=Character(char)
+            characters.append(newChar)
+            charId=newChar.id
+        charIds.append(charId)
+
+    lineToAdd=Line(lineType,charIds,text)
+    #print(lineToAdd)
+    lines.append(lineToAdd)
+
+
+
+
+
+def analyseAndAddLineStrings(lineStrings):
+
+    lineStrings=list(filter(None,lineStrings))
+
+    print("Reading {0} lines".format(len(lineStrings)))
+    for line in lineStrings:
+        #print("NEXT LINE")
+        #print("\t"+line)
+        charList=[]
+        if(line[0]=="["):
+            #print("SCENE")
+            lineType=1
+            text=line[1:-1]
+        elif(line[0]=="("):
+            #print("DESCRIPTION")
+            lineType=2
+            text=line[1:-1]
+        elif(line.find(":")>-1):
+            #print("DIALOGUE")
+            lineType=3
+            text=line[line.find(":")+1:]
+            charNames=line[:line.find(":")]
+            charList=charNames.split(", ")
+            for c in range(len(charList)):
+                charString=charList[c]
+                andIndex=charString.find("and ")
+                if(andIndex>-1):
+                    charList[c]=charString[andIndex+4:]
+        else:
+            lineType=0
+            text=line
+        addLine(lineType,charList,text)
+
+
+
 
 friends_root_url='https://fangj.github.io/friends/'
 raw_html=simple_get(friends_root_url)
-print(len(raw_html))
-
+#print(len(raw_html))
+epCount=0
+lines=[]
 html=BeautifulSoup(raw_html,'html.parser')
 for a in html.select('a'):
     episode_url=friends_root_url+a['href']
@@ -41,36 +138,101 @@ for a in html.select('a'):
     episode_raw_html=simple_get(episode_url)
     episode_html=BeautifulSoup(episode_raw_html,'html.parser')
     episode_html_lines=episode_html.select('p')
-    lines=[]
+    lineStrings = []
 
+    allEpisodeString=""
     for i,p in enumerate(episode_html_lines):
         if(i>1 and i<len(episode_html_lines)-1):
-            #print("****NEW LINE****")
-            #if direction
-            if(p.text[0]=="["):
-                #print("DIRECTION")
-                #print(p.text)
-                lines.append(Line(0, "SCENE", p.text))
-
+            formattedP=p.text.replace("\n"," ")
+            formattedP.replace("  "," ")
+            squareBracketIndex=formattedP.find("[")
+            if(squareBracketIndex>-1):
+                lineStrings.append(formattedP[:squareBracketIndex])
+                lineStrings.append(formattedP[squareBracketIndex:])
             else:
-                pText=p.text
-                if(pText.find("[")>-1):
-                    #print("NO NEW LINE PROBLEM")
-                    bracketIndex=p.text.find("[")
-                    direction=pText[bracketIndex:]
+                lineStrings.append(formattedP)
 
-                    lines.append(Line(0, "SCENE", pText[bracketIndex:]))
-                    pText=pText[:bracketIndex]
+    analyseAndAddLineStrings(lineStrings)
+    epCount+=1
+    #uncomment for only one episode
+    #break;
 
-                bolded=p.select('b')+p.select('strong')
-                if(len(bolded)>0):
-                    #print("DIALOGUE")
-                    for name in bolded:
-                        #print(name.text[:-1])
-                        #print("_____")
-                        #print(pText[len(name.text):])
-                        lines.append(Line(1,name.text[:-1],pText[len(name.text):]))
-                        break;
+    if(epCount==2):
+        break
 
-    break;
-print(len(lines))
+
+for line in lines:
+    if(line.type==1 or line.type==2):
+        for char in characters:
+            if(line.text.find(char.name)>-1):
+                line.charIds.append(char.id)
+
+print("Lines: {0}".format(len(lines)))
+for char in characters:
+    print(char)
+
+#for line in lines:
+    #print(line)
+
+
+def simpleMarkovTest(charId,stateSize):
+    markov={}
+    for line in lines:
+        if line.type==3:
+            if charId in line.charIds:
+
+                firstBit=""
+                for k in range(stateSize):
+                    firstBit += str(line.tokens[k])
+                    if k < (stateSize - 1):
+                        firstBit += ","
+
+                #print(firstBit)
+                if("-1" in markov):
+                    markov["-1"].append(firstBit)
+                else:
+                    markov["-1"]=[firstBit]
+                for t in range(stateSize,len(line.tokens)-stateSize):
+                    token=line.tokens[t]
+                    previous=""
+                    for k in range(stateSize):
+                        previous+=str(line.tokens[t-(stateSize-k)])
+                        if k<(stateSize-1):
+                            previous+=","
+                    if previous in markov:
+                        markov[previous].append(token)
+                    else:
+                        markov[previous]=[token]
+
+    #print(markov.keys())
+    newLine=random.choice(markov["-1"])
+    x=0
+    while detoke([ int(newLine.split(",")[0]) ])!=".":
+    #for x in range(stateSize,50):
+        #print(x)
+        #print(newLine)
+        newLineIds=newLine.split(",")
+        previous=""
+        for j in range(0,stateSize):
+            k=stateSize-j
+            #print(x-k)
+            previous += str(newLineIds[x-k])
+            if j < (stateSize - 1):
+                previous += ","
+        #if(previous not in markov.keys()):
+            #previous=random.choice(list(markov.keys()))
+        newLine+=","+str(random.choice(markov[previous]))
+        x+=1
+
+    #print(newLine)
+    newTokens=list(map(int,newLine.split(",")))
+
+    print("{0}: {1}".format(characters[charId].name,detoke(newTokens)))
+
+print("\n\n\n\n\n")
+#simpleMarkovTest(0,4)
+#simpleMarkovTest(1,4)
+#simpleMarkovTest(2,4)
+
+
+#for char in characters:
