@@ -157,8 +157,8 @@ for a in html.select('a'):
     #uncomment for only one episode
     #break;
 
-    if(epCount==2):
-        break
+    #if(epCount==2):
+        #break
 
 
 for line in lines:
@@ -167,72 +167,124 @@ for line in lines:
             if(line.text.find(char.name)>-1):
                 line.charIds.append(char.id)
 
-print("Lines: {0}".format(len(lines)))
 for char in characters:
     print(char)
 
 #for line in lines:
     #print(line)
 
-
-def simpleMarkovTest(charId,stateSize):
-    markov={}
-    for line in lines:
-        if line.type==3:
-            if charId in line.charIds:
-
-                firstBit=""
-                for k in range(stateSize):
-                    firstBit += str(line.tokens[k])
-                    if k < (stateSize - 1):
-                        firstBit += ","
-
-                #print(firstBit)
-                if("-1" in markov):
-                    markov["-1"].append(firstBit)
-                else:
-                    markov["-1"]=[firstBit]
-                for t in range(stateSize,len(line.tokens)-stateSize):
-                    token=line.tokens[t]
-                    previous=""
-                    for k in range(stateSize):
-                        previous+=str(line.tokens[t-(stateSize-k)])
-                        if k<(stateSize-1):
-                            previous+=","
-                    if previous in markov:
-                        markov[previous].append(token)
-                    else:
-                        markov[previous]=[token]
-
-    #print(markov.keys())
-    newLine=random.choice(markov["-1"])
-    x=0
-    while detoke([ int(newLine.split(",")[0]) ])!=".":
-    #for x in range(stateSize,50):
-        #print(x)
-        #print(newLine)
-        newLineIds=newLine.split(",")
-        previous=""
-        for j in range(0,stateSize):
-            k=stateSize-j
-            #print(x-k)
-            previous += str(newLineIds[x-k])
-            if j < (stateSize - 1):
-                previous += ","
-        #if(previous not in markov.keys()):
-            #previous=random.choice(list(markov.keys()))
-        newLine+=","+str(random.choice(markov[previous]))
-        x+=1
-
-    #print(newLine)
-    newTokens=list(map(int,newLine.split(",")))
-
-    print("{0}: {1}".format(characters[charId].name,detoke(newTokens)))
-
-print("\n\n\n\n\n")
-#simpleMarkovTest(0,4)
-#simpleMarkovTest(1,4)
-#simpleMarkovTest(2,4)
+print("Lines: {0}".format(len(lines)))
 
 
-#for char in characters:
+lines_to_learn=list(filter(lambda x:(1 in x.charIds)and(x.type==3),lines))
+just_text=list(map(lambda x:x.text,lines_to_learn))
+
+just_text_string="".join(just_text)
+
+chars=sorted(list(set(just_text_string)))
+
+char_indices = dict((c,i) for i,c in enumerate(chars))
+indices_char = dict((i,c) for i,c in enumerate(chars))
+
+maxlen=40
+step=3
+sentences=[]
+next_chars=[]
+
+for i in range(0,len(just_text_string)-maxlen,step):
+    sentences.append(just_text_string[i:i+maxlen])
+    next_chars.append(just_text_string[i+maxlen])
+
+#print(sentences[:10],"\n")
+#print(next_chars[:10])
+##lets do some neural net
+
+import tensorflow as tf
+import numpy as np
+
+x=np.zeros((len(sentences),maxlen,len(chars)),dtype=np.bool)
+y=np.zeros((len(sentences),len(chars)),dtype=np.bool)
+
+for i,sentence in enumerate(sentences):
+    for t,char in enumerate(sentence):
+        x[i,t,char_indices[char]]=1
+    y[i,char_indices[next_chars[i]]]=1
+    
+from keras.models import Sequential
+from keras.layers import Dense, Activation
+from keras.layers import LSTM
+from keras.optimizers import RMSprop
+from keras.callbacks import LambdaCallback, ModelCheckpoint
+import sys
+import io
+from time import time
+from keras.callbacks import TensorBoard
+
+
+model=Sequential()
+model.add(LSTM(128,input_shape=(maxlen,len(chars))))
+model.add(Dense(len(chars)))
+model.add(Activation('softmax'))
+
+optimizer=RMSprop(lr=0.03)
+model.compile(loss='categorical_crossentropy',optimizer=optimizer)
+
+epochsToTrain=5
+
+
+def sample(preds,temperature=1.0):
+    preds=np.asarray(preds).astype('float64')
+    preds=np.log(preds)/temperature
+    exp_preds=np.exp(preds)
+    preds=exp_preds/np.sum(exp_preds)
+    probas=np.random.multinomial(1,preds,1)
+    return np.argmax(probas)
+
+def on_epoch_end(epoch,logs):
+    if epoch+1==1 or epoch+1==epochsToTrain:
+        print()
+        print('----- Generating text after Epoch: %d' % epoch)
+        start_index=random.randint(0,len(just_text_string)-maxlen-1)
+        for diversity in [0.2,0.5,1.0,1.2]:
+            print('diversity:',diversity)
+            generated=''
+            sentence=just_text_string[start_index:start_index+maxlen]
+            generated+=sentence
+            sys.stdout.write(generated)
+            for i in range(400):
+                x_pred=np.zeros((1,maxlen,len(chars)))
+                for t,char in enumerate(sentence):
+                    x_pred[0,t,char_indices[char]]=1.
+                    
+                preds=model.predict(x_pred,verbose=0)[0]
+                next_index=sample(preds,diversity)
+                next_char=indices_char[next_index]
+
+                generated+=next_char
+                sentence=sentence[1:]+next_char
+                
+                sys.stdout.write(next_char)
+                sys.stdout.flush()
+            print()
+    else:
+        print()
+        print('----- Not generating text after Epoch: %d' % epoch)
+
+generate_text = LambdaCallback(on_epoch_end=on_epoch_end)
+
+tensorboard = TensorBoard(log_dir="logs/{}".format(time()))
+
+
+filepath="weights.hdf5"
+checkpoint=ModelCheckpoint(filepath,
+                           monitor='loss',
+                           verbose=1,
+                           save_best_only=True,
+                           mode='min')
+with tf.device('/gpu:0'):
+    model.fit(x,y,
+              batch_size=128,
+              epochs=epochsToTrain,
+              verbose=2,
+              callbacks=[generate_text,checkpoint,tensorboard])
+        
