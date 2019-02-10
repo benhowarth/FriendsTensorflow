@@ -1,0 +1,1 @@
+{"lr": 0.04, "step": 5, "characterToTrain": "joey", "characterToTrainId": 1, "epCount": 24, "sentenceLenToGen": 60, "diversities": "0.2,0.5,1.0,1.2", "epochsToTrain": 10, "maxlen": 15}

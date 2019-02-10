@@ -157,8 +157,8 @@ for a in html.select('a'):
     #uncomment for only one episode
     #break;
 
-    #if(epCount==2):
-        #break
+    if(epCount==24):
+        break
 
 
 for line in lines:
@@ -175,25 +175,52 @@ for char in characters:
 
 print("Lines: {0}".format(len(lines)))
 
+characterToTrain="joey"
 
-lines_to_learn=list(filter(lambda x:(1 in x.charIds)and(x.type==3),lines))
+characterToTrainId=getCharacterId(characterToTrain)
+lines_to_learn=list(filter(lambda x:(characterToTrainId in x.charIds)and(x.type==3),lines))
+
+
 just_text=list(map(lambda x:x.text,lines_to_learn))
+
 
 just_text_string="".join(just_text)
 
-chars=sorted(list(set(just_text_string)))
+word_ends=[".","?","!",":",";","(",")"," ","[","]","'","/",","]
+wordList=[]
+
+def splitPunc(word):
+    if(len(word)>1):
+        for end in word_ends:
+            #punctuation index
+            pi=word.find(end)
+            if(pi>-1):
+                if(len(word[:pi])==0):
+                    return [word[pi]]+splitPunc(word[pi+1:])
+                elif(len(word[pi+1:])==0):
+                    return splitPunc(word[:pi])+[word[pi]]
+                else:
+                    return splitPunc(word[:pi])+[word[pi]]+splitPunc(word[pi+1:])
+
+    return [word]
+
+wordList=splitPunc(just_text_string)
+
+        
+chars=sorted(list(set(wordList)))
+#chars=sorted(list(set(just_text_string)))
 
 char_indices = dict((c,i) for i,c in enumerate(chars))
 indices_char = dict((i,c) for i,c in enumerate(chars))
 
-maxlen=40
-step=3
+maxlen=15
+step=5
 sentences=[]
 next_chars=[]
 
-for i in range(0,len(just_text_string)-maxlen,step):
-    sentences.append(just_text_string[i:i+maxlen])
-    next_chars.append(just_text_string[i+maxlen])
+for i in range(0,len(wordList)-maxlen,step):
+    sentences.append(wordList[i:i+maxlen])
+    next_chars.append(wordList[i+maxlen])
 
 #print(sentences[:10],"\n")
 #print(next_chars[:10])
@@ -209,6 +236,7 @@ for i,sentence in enumerate(sentences):
     for t,char in enumerate(sentence):
         x[i,t,char_indices[char]]=1
     y[i,char_indices[next_chars[i]]]=1
+
     
 from keras.models import Sequential
 from keras.layers import Dense, Activation
@@ -226,10 +254,11 @@ model.add(LSTM(128,input_shape=(maxlen,len(chars))))
 model.add(Dense(len(chars)))
 model.add(Activation('softmax'))
 
-optimizer=RMSprop(lr=0.03)
+lr=0.04
+optimizer=RMSprop(lr=lr)
 model.compile(loss='categorical_crossentropy',optimizer=optimizer)
 
-epochsToTrain=5
+epochsToTrain=10
 
 
 def sample(preds,temperature=1.0):
@@ -240,18 +269,21 @@ def sample(preds,temperature=1.0):
     probas=np.random.multinomial(1,preds,1)
     return np.argmax(probas)
 
+diversities=[0.2,0.5,1.0,1.2]
+sentenceLenToGen=60
 def on_epoch_end(epoch,logs):
     if epoch+1==1 or epoch+1==epochsToTrain:
         print()
         print('----- Generating text after Epoch: %d' % epoch)
-        start_index=random.randint(0,len(just_text_string)-maxlen-1)
-        for diversity in [0.2,0.5,1.0,1.2]:
+        start_index=random.randint(0,len(wordList)-maxlen-1)
+        stringToFile="EPOCH "+str(epoch)+"\n\n"
+        for diversity in diversities:
             print('diversity:',diversity)
             generated=''
-            sentence=just_text_string[start_index:start_index+maxlen]
-            generated+=sentence
+            sentence=wordList[start_index:start_index+maxlen]
+            generated+="".join(sentence)
             sys.stdout.write(generated)
-            for i in range(400):
+            for i in range(sentenceLenToGen):
                 x_pred=np.zeros((1,maxlen,len(chars)))
                 for t,char in enumerate(sentence):
                     x_pred[0,t,char_indices[char]]=1.
@@ -261,18 +293,71 @@ def on_epoch_end(epoch,logs):
                 next_char=indices_char[next_index]
 
                 generated+=next_char
-                sentence=sentence[1:]+next_char
+                sentence=sentence[1:]
+                sentence.append(next_char)
                 
                 sys.stdout.write(next_char)
                 sys.stdout.flush()
             print()
+            stringToFile+="DIVERSITY: "+str(diversity)+"\n"+generated+"\n\n\n"
+        f=open("{}/output.txt".format(folderName),"a")
+        f.write(stringToFile)
+        f.close()
     else:
         print()
         print('----- Not generating text after Epoch: %d' % epoch)
 
 generate_text = LambdaCallback(on_epoch_end=on_epoch_end)
 
-tensorboard = TensorBoard(log_dir="logs/{}".format(time()))
+
+
+params={}
+params["lr"]=lr
+params["diversities"]=",".join([str(d) for d in diversities])
+params["sentenceLenToGen"]=sentenceLenToGen
+params["maxlen"]=maxlen
+params["step"]=step
+params["epochsToTrain"]=epochsToTrain
+params["characterToTrain"]=characterToTrain
+params["characterToTrainId"]=characterToTrainId
+params["epCount"]=epCount
+
+
+#hyperparameters = [tf.convert_to_tensor([k, str(v)]) for k, v in params.items()]
+import json
+hyperparameters=json.dumps(params)
+#print(hyperparameters)
+#file_writer=tf.summary.FileWriter("logs/{}".format(time()))
+#for k,v in params.items():
+#    summary=tf.summary.text(k,tf.convert_to_tensor(str(v)))
+#    file_writer.add_summary(summary).eval()
+#file_writer.flush()
+#file_writer.close()
+
+class TBLog(TensorBoard):
+    def __init__(self,log_dir):
+        #self.hyperparams=params
+        #self.writer=
+        super().__init__(log_dir=log_dir)
+
+    def on_train_end(self,logs=None):
+        #for k,v in self.hyperparams.items():    
+            #logs.update({k:v})
+            #summary=tf.summary.text(k,tf.convert_to_tensor(str(v)))
+            #text_tensor=tf.make_tensor_proto(v)
+            #summary=tf.Summary()
+            #summary.value.add(tag=str(k),tensor=text_tensor)
+            #self.writer.add_summary(summary)
+        #self.writer.flush()
+        f=open("{}/params.txt".format(folderName),"w+")
+        f.write(hyperparameters)
+        f.close()
+        super().on_train_end(logs)
+
+
+folderName="logs/{}".format(time())
+tensorboard = TBLog(folderName)
+
 
 
 filepath="weights.hdf5"
@@ -288,3 +373,4 @@ with tf.device('/gpu:0'):
               verbose=2,
               callbacks=[generate_text,checkpoint,tensorboard])
         
+print(hyperparameters)
