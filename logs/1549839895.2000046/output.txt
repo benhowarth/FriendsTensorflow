@@ -1,0 +1,36 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+re doin' this. (looking at himself in the reflection on a                                                             
+
+
+DIVERSITY: 0.5
+re doin' this. (looking at himself in the reflection on a                                                             
+
+
+DIVERSITY: 1.0
+re doin' this. (looking at himself in the reflection on a      .           so s    alright    iand.' so           .  ,       it  
+
+
+DIVERSITY: 1.2
+re doin' this. (looking at himself in the reflection on a    just  .      youyou sheyon    to so     soso i , on   hey' that alright hey you    so  so
+
+
+EPOCH 9
+
+DIVERSITY: 0.2
+, like, what, eight? welcome back to the world! grab a                                                            
+
+
+DIVERSITY: 0.5
+, like, what, eight? welcome back to the world! grab a,    ?                        ,  you   ,? '     .       )     
+
+
+DIVERSITY: 1.0
+, like, what, eight? welcome back to the world! grab athe.,could,when .  you?it)  ?sto . ?  you  uh, )   when)   . .  ,looks.youyouhead)  ithe  'the
+
+
+DIVERSITY: 1.2
+, like, what, eight? welcome back to the world! grab a out myou.the)the )ve)'you' ,?)you'  ? ask .'you,,i )listensthe? ,)) ,?tothe'heyou hearing , ll could?
+
+

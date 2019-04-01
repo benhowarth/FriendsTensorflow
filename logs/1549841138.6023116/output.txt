@@ -1,0 +1,36 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+do you get a monkey into a zoo? did you call the                                                             
+
+
+DIVERSITY: 0.5
+do you get a monkey into a zoo? did you call the              ?     !       , , ,   i'       ,               
+
+
+DIVERSITY: 1.0
+do you get a monkey into a zoo? did you call the comforting?wannahey ?   screwed for? again owokay'doing ( bad bathroom qviiite hethe ,agent shuttoo getswhat i,who ? '.   ?, mom! like 
+
+
+DIVERSITY: 1.2
+do you get a monkey into a zoo? did you call the startingyou,uhiahhhand me and tampaout 'lost,the ok seetheyto.''(? ?a) .anti-paolodo,alrightif alright,.) you answer a alright whaddyouguyanti-paolo? 
+
+
+EPOCH 9
+
+DIVERSITY: 0.2
+, and again, and again... (phone rings, he answers) , you don't like you don't believe you're like you're like you're like you're like you're like you're like you're like 
+
+
+DIVERSITY: 0.5
+, and again, and again... (phone rings, he answers) () push with you don't like that? and i m have talking and and and you're like you can be it? and alright, no, i'm
+
+
+DIVERSITY: 1.0
+, and again, and again... (phone rings, he answers) like your lips you think agent: uh, ooh, i'm use i he't happen don' we she tracks. (ross)  listen) just other that's like
+
+
+DIVERSITY: 1.2
+, and again, and again... (phone rings, he answers) thanks time because i familiar did to the promise tinkle's gonna momkisses thinkin if what!?  oh).. what? you'm the great, fingers! we d 
+
+

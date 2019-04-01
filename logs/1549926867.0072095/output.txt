@@ -1,0 +1,18 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+ to talk to rachel) hey, where are you going? you can't go                                                             
+
+
+DIVERSITY: 0.5
+ to talk to rachel) hey, where are you going? you can't go       the that it a the i you i her                               what     
+
+
+DIVERSITY: 1.0
+ to talk to rachel) hey, where are you going? you can't go on.on she to ( sure(don sight? look in of desperation bizarro.and thethe s it my ''ve  's how ' sorry oh sandwich floor,. 
+
+
+DIVERSITY: 1.2
+ to talk to rachel) hey, where are you going? you can't go looked  ,  . do.?s.'name guy think how,, know an,how downthen,noso change. broketo you,mi his no) and know, s 7
+
+

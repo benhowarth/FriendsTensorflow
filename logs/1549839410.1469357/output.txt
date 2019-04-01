@@ -1,0 +1,36 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+sarcastic) whoaa!! you cuddled? how many............................................................
+
+
+DIVERSITY: 0.5
+sarcastic) whoaa!! you cuddled? how many................,...........................................
+
+
+DIVERSITY: 1.0
+sarcastic) whoaa!! you cuddled? how many.......,..,...............,................................,
+
+
+DIVERSITY: 1.2
+sarcastic) whoaa!! you cuddled? how many.,..............,........,,..........,,.....................
+
+
+EPOCH 9
+
+DIVERSITY: 0.2
+ cool, be cool. services? (ross ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+DIVERSITY: 0.5
+ cool, be cool. services? (ross ,,,,,,,,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+DIVERSITY: 1.0
+ cool, be cool. services? (ross ,,,,,,,,,.,,.,,,,,,,,,,,,,,,,,.,,,,?,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+DIVERSITY: 1.2
+ cool, be cool. services? (ross ,.,,,,,,,,,,,.,,,.,,,,,,.,,,,..,,,,,,,,,.,,,,.,,,,,,,,,,,,,,
+
+

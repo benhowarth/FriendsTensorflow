@@ -1,0 +1,36 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+. look, it was a job all right? i will not take                                                 .          
+
+
+DIVERSITY: 0.5
+. look, it was a job all right? i will not take              and       .              ,            '   '     
+
+
+DIVERSITY: 1.0
+. look, it was a job all right? i will not takethankslike ross tooare. panicked ,      .waitresswho  ywhat itare  theno) thatwell creation,so .think   be  ,syeah likethat. notd 
+
+
+DIVERSITY: 1.2
+. look, it was a job all right? i will not take ? anything t okwait?can 'donfunnyohevergoesagainiyour .if .littleuhsetandmequestiongoodyourplayget. too my'you,spainmean   ).how doesnmyouithe 
+
+
+EPOCH 9
+
+DIVERSITY: 0.2
+ that's more neutral. plus, y'know, i think it should like you can know what it know i don't wanna i don't wanna that and you don't like you don't wanna i mean. i don'
+
+
+DIVERSITY: 0.5
+ that's more neutral. plus, y'know, i think it should you know what the little for it's a thing the guy. ross, we no, you're like you see today with the pain re i'm like 
+
+
+DIVERSITY: 1.0
+ that's more neutral. plus, y'know, i think it should the store know that! i mean. oh. you wanna bad other ross, and hey that! i.knowhey know. be qviiite a the reflection, ..  entering
+
+
+DIVERSITY: 1.2
+ that's more neutral. plus, y'know, i think it should know about ll can nice.. he'm bencause was is. inwhat.. no, look-look-look-look-look, wha-. did ross, i else are out. (oh, out's
+
+
