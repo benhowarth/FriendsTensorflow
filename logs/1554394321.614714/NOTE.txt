@@ -1,0 +1,6 @@
+First ACTUAL char level run (last one used .split() which
+split it into a list of words with no spaces!!!!!
+
+still only ~50s an epoch
+
+need to decrease learning rate?

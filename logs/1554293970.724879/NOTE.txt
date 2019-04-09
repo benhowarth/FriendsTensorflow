@@ -1,0 +1,5 @@
+This is a test with the characterid info added to the beginning
+but it doesn't actually affect the generation as it's all zero
+as I haven't implemented getting the info from the lines
+
+(just trained on joey still)

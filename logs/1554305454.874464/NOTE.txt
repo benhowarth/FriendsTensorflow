@@ -1,0 +1,3 @@
+First sort of successful run with a given structure and trying character voices
+
+still need to improve epoch time

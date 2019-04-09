@@ -1,0 +1,7 @@
+First proper char run with all episodes
+running for 20 epochs,
+should hopefully add epoch info under epoch title in output (doesn't just loss, must fix)
+only 10 epochs
+epoch 1 took 802s
+epoch 9 took 1330s
+epoch 10 took 1177s

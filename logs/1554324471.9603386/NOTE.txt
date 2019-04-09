@@ -1,0 +1,3 @@
+Got weird key error, see output
+
+possibly line 149 -len(characters)   testing next run by commenting that out

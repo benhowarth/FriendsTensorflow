@@ -1,0 +1,70 @@
+EPOCH 0
+{'loss': 1.856481354372396}
+
+DIVERSITY: 0.2
+SCENElen(60)ollowed by phoebe is the phone. i can to the face the couch and the phone. 
+joeylen(60)hen monica enter to the baby. i can to the baby something to the couch on t
+chandlerlen(80) (finally notice to the one to the baby. i don't know what i was the back and something to go t
+monicalen(100) hello, mr. bing to the baby to the baby to the coother to the booking to me good to the too with the too back and 
+
+
+
+DIVERSITY: 0.5
+SCENElen(60) are telling every dood to walk for the interd. monica is back to seving on
+joeylen(60): hospital. phoebe, that’s the bathroom a count a for the plan me. (stops h
+chandlerlen(80)ally noticing to his to go starting it to say the strawt starts the and starts and the befeet r
+monicalen(100) hello, mr. bing it! i stop her see for to the play for the door... i want me a mead the cour and monica in the tou
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)f a flushing to his ragar. goss fill quick bentred!!! just said! i thought)
+joeylen(60)ss i'll see you think    callout.) olliars, wit him. i likes he toud him ba
+chandlerlen(80)noticing the guy." thei don't go. not. you juston the kind sometry, a time!! if it gonna the ki
+monicalen(100) hello, mr. bin about her? whod! (reto stop enters and very now the picko. say i'm i fun to go fun. (meeng seet and
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)ebe is there stwoodd he sare thigk wrone! sles is cragel puck me eljaring c
+joeylen(60) enters with a fur) then who put hos? ?t'rone it's cen pitten woren moving 
+chandlerlen(80)ally noticing to kid he! are, on sehprilf okane vi you' frommelds tite erous aboutchel baskaro.
+monicalen(100) hello, mr. bing of a nunch! you don't have to stay? it's look of wing rell). ha oug that more aboam? that’s? i'mes
+
+
+
+EPOCH 9
+{'loss': 1.61721955857165}
+
+DIVERSITY: 0.2
+SCENElen(60)erges from the back and he doesn't but and see the there.) which and so the
+joeylen(60)f a flushing to the start and a good thing i was good with him this was thi
+chandlerlen(80)noticing the guy and they got a little start the phone and she starts to did is the couch with 
+monicalen(100) hello, mr. bing thing the still the way a big thing in the stuff and he was so thing i was thinking this at the co
+
+
+
+DIVERSITY: 0.5
+SCENElen(60): hospital. phoebe, did! so there as   sees her sticty about the back. who 
+joeylen(60)his bed is emptard the when i go to the back some married of the place woma
+chandlerlen(80)ally noticing this was home is the moving on out hands this back the back.) oh, chandler: i was
+monicalen(100) hello, mr. bing on the door, i was think it was your start and happen. the entering this at the phone to a good an
+
+
+
+DIVERSITY: 1.0
+SCENElen(60) guy's room, money. this? we'd scry bibst) oh! why why will her wase, then 
+joeylen(60)scene: monica and these whealy she heard    tam to say in. we’re chrighelat
+chandlerlen(80)he guest of honout...   is. all right, i won’t vend down! up soust that yeah? soon for her? eac
+monicalen(100) hello, mr. bingdo! (givjame.) we do the window lapion man, and make a name. i'm recule's up the bed phoebe othist.
+
+
+
+DIVERSITY: 1.2
+SCENElen(60): the coma guy'n onfee pleinian, depo hiy, (dusie down and sivis in hurphol
+joeylen(60) guy's room, more good?fied, i want? do you larges forget here can she? ? i
+chandlerlen(80)est of honour) iedd if i love out they winh is provaythstanis! they eos her intereink.) yeah. i
+monicalen(100) hello, mr. bin's) you're ross, i'm wouse’s veil. is... firpl to the ondy, not we’re nide?!'s day down thrugins tha
+
+
+

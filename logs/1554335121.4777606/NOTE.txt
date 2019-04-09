@@ -1,0 +1,3 @@
+First run with KeyError exception, just adds !ERROR! to sentence
+and pick a random word to use instead
+(made small fix so actual first run is the next one)

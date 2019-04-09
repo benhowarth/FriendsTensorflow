@@ -1,0 +1,70 @@
+EPOCH 0
+{'loss': 1.8011833426096682}
+
+DIVERSITY: 0.2
+SCENElen(60)e telling everything with the phone and start and counder and could me t
+joeylen(60)nters with a chandler and the way the phone the something the call the m
+chandlerlen(80)nally noticine the found to me this scene the care and the door) you got the phone and she w
+monicalen(100)lo, mr. bing the house i want to go the hand the suppored to the back and the could be a little back to the back
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)uess i'll see you could to want the back and med is ponner and the chand
+joeylen(60)e woozy, but much the couch my coust that you got that maybe you good an
+chandlerlen(80)ticing the guys. you know, i tore me to the tell the bathroom in the back and the moner to m
+monicalen(100)lo, mr. bing this good with you.) i could watch it would think what hang to you this is a little with my the wro
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)guy's room, he pasty to love you dimprina! we're hachpuse?..   to thcous
+joeylen(60) well, what ei, preming up this was just have that pimphe's praking. i w
+chandlerlen(80)ur) surprise. we’ll net leming? you have this game he was hortay. (hangs better time with ro
+monicalen(100)lo, mr. bing drest! i wing a ghow nothird a phone the lakay with you get a good over’s not sit up again? for you
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)ch of balloof himerftice. yeah, i vidade mouth thos off his clead.) howe
+joeylen(60) the sound out on her. it’s gam selie? you's nead a coming let y’know yo
+chandlerlen(80)uest of honoe, and the lifed it, two chand. did you never? where hot othim a'n itis she't yn
+monicalen(100)lo, mr. bingly op homa? i nothe' gete out with his! it’s something for at insolowidh lowe not wanted home. but s
+
+
+
+EPOCH 9
+{'loss': 1.6154122222090674}
+
+DIVERSITY: 0.2
+SCENElen(60)lling everyone the by start the bed the bedroom and the with the by star
+joeylen(60) well,... they don’t so we don’t think you want to go the back to the mo
+chandlerlen(80) of honour) i want the stupid the bedroom) what are you to make the first the part and i wan
+monicalen(100) hello, mr. (she gets to make the couple the thing the back to the micred the money and the bed the man the hand
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)monica enter.) (to you stinger. (puts stupits petch to seen the ready to
+joeylen(60)nd of a fluse the to really doing here. (doesn’t done and the thing that
+chandlerlen(80)honour) surpling to you do. that's we think i was a scing my time to call when i have to get
+monicalen(100) hello, mr. we want to be this hand to get to start a thing with the get back out the day.) they actually tell y
+
+
+
+DIVERSITY: 1.0
+SCENElen(60), closely foungs) ok your lamiles about) malcy. (right) ok fahf keods t 
+joeylen(60)y followed by start there nepend's, hey, restah, thanks dints good stinn
+chandlerlen(80)honour) surpling some died for whtt’s something) i caual catcone in, no...i rachel's carmega
+monicalen(100) hello, mr. call this wenk. y’know that you tell him got down that? lasth and i got hurn i want to get f monica?
+
+
+
+DIVERSITY: 1.2
+SCENElen(60) i feel good) whoocthmediou beh? of the for you stilleroles? sne, freak?
+joeylen(60)o sign of cook ok. but wated out you give.  use it chmelood?! the hikery
+chandlerlen(80)ur) surprise wrogg intorompond bary? (lists they got room? ( looks it in oned the would ares
+monicalen(100) hello, mr. (reepler!able, vety. it’s becour door assangles. father    atcas. but elepsherfen, how aody-ries by 
+
+
+

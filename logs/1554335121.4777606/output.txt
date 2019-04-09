@@ -1,0 +1,34 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+SCENElen(20)uh... it was really nice. you it you you you you you you you you a
+joeylen(30)of news.. (she holds up here you you you you you you you you i you you you you i you 
+chandlerlen(30) is still you dumping barry at the i m i it ' ' ' '' i't i'm i'm you
+monicalen(30)while we're on the subject of news  ' i i'm you you i you you you you you i you 
+
+
+
+DIVERSITY: 0.5
+SCENElen(20) if you want, i'll just—i'll you you the gonna me to i that the have
+joeylen(30) show off her engagement ring and they i't i't her ' like i you't i't i's hi'
+chandlerlen(30) show off her engagement ring and they i s don't i i m i i you' i i know's i
+monicalen(30)biggest news is still you dumping barry at that't i't i'm so you i m you a you it  
+
+
+
+DIVERSITY: 1.0
+SCENElen(20) i wanted to hurt you. more than in can boyfriend still rubbing that monica know.. '
+joeylen(30)on the subject of news.. (she family) okay ' insidei i't i'just then, '. hours) this're
+chandlerlen(30).. (she holds up here finger to nothing guy'm you. what anyone't'm. you, you wondering re - 
+monicalen(30) the biggest news is still you dumping , think been that... (? you i'okay   it'm.'you're
+
+
+
+DIVERSITY: 1.2
+SCENElen(20)intercom) be right there. (to robbie look okay blade. been'mon i phone' ross from 
+joeylen(30) subject of news.. (she holds up callingt) ', never huh., doctors! wooh'women. i's't it'
+chandlerlen(30)finger to show off her engagement ring and i't this late !..i? tossing't a swirly never her, dress'
+monicalen(30)holds up here finger to show off her t rolls dreaded re screamer? we looks don, a didn't i me, 
+
+
+

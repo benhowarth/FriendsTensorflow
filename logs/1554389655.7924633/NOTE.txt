@@ -1,0 +1,2 @@
+Trained on 100 episodes instead of 24 and it crashed
+like a mofo (may need to tokenize characters)

@@ -26,9 +26,14 @@ def log_error(e):
 
 
 characters=[]
+def getCharacterName(id):
+    for char in characters:
+        if(char.id==id):
+            return char.name
+    return "?"
 def getCharacterId(name):
     for char in characters:
-        if(char.name==name):
+        if(char.name.lower()==name.lower()):
             return char.id
     return -1
 class Character:
@@ -37,6 +42,10 @@ class Character:
         self.id=len(characters)
     def __str__(self):
         return "CHARACTER {0}: '{1}'".format(self.id,self.name)
+characters.append(Character("SCENE"));
+characters.append(Character("DESCRIPTION"));
+characters.append(Character("MISC"));
+
 
 tokens={}
 detokens={}
@@ -103,10 +112,12 @@ def analyseAndAddLineStrings(lineStrings):
             #print("SCENE")
             lineType=1
             text=line[1:-1]
+            charList=["SCENE"]
         elif(line[0]=="("):
             #print("DESCRIPTION")
             lineType=2
             text=line[1:-1]
+            charList=["DESCRIPTION"]
         elif(line.find(":")>-1):
             #print("DIALOGUE")
             lineType=3
@@ -121,6 +132,7 @@ def analyseAndAddLineStrings(lineStrings):
         else:
             lineType=0
             text=line
+            charList=["MISC"]
         addLine(lineType,charList,text)
 
 
@@ -157,8 +169,9 @@ for a in html.select('a'):
     #uncomment for only one episode
     #break;
 
-    if(epCount==24):
+    if(epCount==50):
         break
+
 
 
 for line in lines:

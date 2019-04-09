@@ -1,0 +1,22 @@
+First pass at multiple characters with a user defined structure
+
+some syntax issue caused a runtime error
+
+time per epoch increased from ~30s to 307s
+
+OUTPUT:
+
+
+diversity: 0.2
+SCENE: rachel, eagerly awaiting ross's arrival... not knowing he is getting off the the the off you the ?: rachel, eagerly awaiting ross's arrival... not knowing he is getting off the we the me to i i you i you you ?: rachel, eagerly awaiting ross's arrival... not knowing he is getting off the i to i a i i a i i the ?: rachel, eagerly awaiting ross's arrival... not knowing he is getting off the i you i a i you i i a you 
+Traceback (most recent call last):
+  File "C:/Users/Ben/PycharmProjects/tensorflow_friends/ScriptGen.py", line 239, in <module>
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\engine\training.py", line 1039, in fit
+    validation_steps=validation_steps)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\engine\training_arrays.py", line 217, in fit_loop
+    callbacks.on_epoch_end(epoch, epoch_logs)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\callbacks.py", line 79, in on_epoch_end
+    callback.on_epoch_end(epoch, logs)
+  File "C:/Users/Ben/PycharmProjects/tensorflow_friends/ScriptGen.py", line 166, in on_epoch_end
+    params["lr"] = lr
+TypeError: Can't convert 'int' object to str implicitly

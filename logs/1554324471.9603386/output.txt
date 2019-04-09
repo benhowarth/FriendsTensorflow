@@ -1,0 +1,72 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+SCENElen(10) is waitressing, monica is cooking. phoebe walks in with steve (crystal duck winner to the the the a 
+joeylen(20) right miss green, everything looks fine... yep, i think we're starting to the the the the and it to the the 
+chandlerlen(20) bernice. (to mindy) look, please, please don't go anywhere, okay? i you the i the hits a the the a 
+monicalen(20)so sorry, i'm an idiot, i was weak, i couldn't help myself the the the the the the the the to the
+
+
+
+DIVERSITY: 0.5
+SCENElen(10)'s, later. rachel is waitressing, monica is cooking. phoebe walks in with steve to to about the up
+joeylen(20) we can, we can go to aruba! when i went there on what would the you for i. i you a i don 
+chandlerlen(20)... i'm sorry, god, i am so sorry, i'm an idiot the look out the the holds out the phoebe my
+monicalen(20)the intercom) be right there. (to robbie and rachel) be back in a ebony to hey. i, i you i a the 
+
+
+
+DIVERSITY: 1.0
+SCENElen(10) rachel is waitressing, monica is cooking. phoebe walks in with steve (crystal duck kisses ' to he! i
+joeylen(20)sorry, i'm an idiot, i was weak, i couldn't help myself! thing' ? bing, and a ruined he! out yeah
+chandlerlen(20) i'm an idiot, i was weak, i couldn't help myself! whatever is ways oh  sorry he gets ve a book. 
+monicalen(20), i was weak, i couldn't help myself! whatever i did, i only into, (la thing, oh, you, that we 
+
+
+
+DIVERSITY: 1.2
+SCENElen(10)scene: monica and rachel's, later. rachel is waitressing, monica is cooking. phoebe says?mesee... right
+joeylen(20), we can go to aruba! when i went there on what would have been that-scary chandler re his in why. (and one
+chandlerlen(20)ll be right there, bernice. (to mindy) look, please, please don't here potato i still(another ?'something. annoyed, anxiously,
+monicalen(20) bernice. (to mindy) look, please, please don't go anywhere, okay? i. a fridge. joey) lips-! ", this 
+
+
+
+
+
+MANUALLY INPUTTED DUE TO ERROR:
+
+----- Generating text after Epoch: 9
+diversity: 0.2
+SCENE:  monica and rachel's, later. rachel is waitressing, monica is cooking. phoebe walks up, and a guy'
+joey:  sorry... i'm sorry, god, i am so sorry, i'm an sorry, y'know, it to be the little money
+chandler:  mean, i thought we were happy. we weren't happy. but with mindy, you know, it was my life, but it's
+monica: (to mindy) look, please, please don't go anywhere, okay? i'll go to go. and i don't have to be
+diversity: 0.5
+SCENE: scene: monica and rachel's, later. rachel is waitressing, monica is cooking. phoebe, he's a guy'
+joey: thought we were happy. we weren't happy. but with mindy, now i'm not take him... (listens) okay, no, 
+chandler:  we can, we can go to aruba! when i went there on what would have to go to be one of the little woman
+monica: , we can go to aruba! when i went there on what would have been little best here. i mean, i have a little
+diversity: 1.0
+SCENE:  rachel is waitressing, monica is cooking. phoebe walks in with steve (crystal duck joey, what a hair! 
+joey: please don't go anywhere, okay? i'll be, i'll be right back. (he so would some thank you for bed. 
+chandler:  gimme another chance, okay, we'll start all over again. we'll go to museum." well, sorry, well, fact you, 
+monica: 'm sorry... i'm sorry, god, i am so sorry, i'm got a much smile least his stupid. when what 
+diversity: 1.2
+SCENE:  and rachel's, later. rachel is waitressing, monica is cooking. phoebe walks in man. oh! my having
+joey: , it was, uh... it was really nice. you would've liked it.' good phone. huh. how night. i'm 
+chandler:  (to mindy) i swear, whatever i was doing, i was always thinking of my lot. very then it was kiss time, you
+monica:  sorry... i'm sorry, god, i am so sorry, i'm an laugh, how his kind of digs of Traceback (most recent call last):
+  File "C:/Users/Ben/PycharmProjects/tensorflow_friends/ScriptGen.py", line 232, in <module>
+    callbacks=[generate_text, checkpoint, tensorboard])
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\engine\training.py", line 1039, in fit
+    validation_steps=validation_steps)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\engine\training_arrays.py", line 217, in fit_loop
+    callbacks.on_epoch_end(epoch, epoch_logs)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\callbacks.py", line 79, in on_epoch_end
+    callback.on_epoch_end(epoch, logs)
+  File "C:/Users/Ben/PycharmProjects/tensorflow_friends/ScriptGen.py", line 150, in on_epoch_end
+    next_char = indices_char[next_index]
+KeyError: -19
+
+Process finished with exit code 1

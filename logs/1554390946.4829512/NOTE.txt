@@ -1,0 +1,7 @@
+First full run of character level training
+
+need to add spaces where necessary not just use .split() with no args
+
+very fast!
+
+~40s an epoch

@@ -1,0 +1,140 @@
+EPOCH 0
+{'loss': 1.8173549093731882}
+
+DIVERSITY: 0.2
+SCENElen(60)s there starts to see and what is the chandler and joey and the chooe:
+joeylen(60)a guy's have to go to the door the starts to the because i don't know 
+chandlerlen(80) (finally have to see it to the because i was to go the chandler and the because i don't w
+monicalen(100)o, mr. bing and here and the because i want to go. (she canding me them and so the friend. i mean it was the m
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)t do you want a through. and the chour and it. it does to make the cre
+joeylen(60)is no signs at the dudd for the chofee and resting and with the chandl
+chandlerlen(80)noticing the because okay? i don't thing it at her didding and i don't want to see the bep
+monicalen(100) hello, mringh? i think you see you thing it is the but the out him and does it unger to find of the beet work
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)scene: monica and the but in with the bolloou?   does his more like a 
+joeylen(60)rs with a dlotnowd thringhe) se you dibd, okay-i had a nace! aawe. me 
+chandlerlen(80)he guest or gonna do? i were    monica's slook cot boxtame ort. come andoghtakely throey?!
+monicalen(100)o, mr. bind eustory cansersed to but my the! happene it, she's acrul mike unde me to probles it it! is all it!
+
+
+
+DIVERSITY: 1.2
+SCENElen(60) from you is! i’le some play  phe blirgich dropping arm claikering up 
+joeylen(60) i feel going at eclrer enterats sometting ol?! you’re sainct what soe
+chandlerlen(80)f honour) askgections vyaken, okay? yit's with you erectake. (theysbess just, i lif i visb
+monicalen(100) hello, mring awates! okayy   and . remuch you guymont mike what younges she there’s maes you're bed well this
+
+
+
+EPOCH 9
+{'loss': 1.572758951984192}
+
+DIVERSITY: 0.2
+SCENElen(60)ch is from the room to the monket. (gong the phone is sticks of the co
+joeylen(60)nd rachel's been and i was the check to the chandler with the chandler
+chandlerlen(80)ing the guys do that the back to the bathroom.) (they is gonna be the restaurant the chand
+monicalen(100)o, mr. bing the baby wanna be a big own this day the chandler we do that i think i wanna be with her still way
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)rs with a movieng her a lasking how on the rings atorf pither party. s
+joeylen(60)ut their chandler and they’re gonna stop her back of my head to the wo
+chandlerlen(80)ally noticer to se min’t get his hand sex and then you do it the in the baby wearing a guy
+monicalen(100)o, mr. bin coming to my face to do something to the pocked the stuff is gonna be the check some the check to n
+
+
+
+DIVERSITY: 1.0
+SCENElen(60) so, the eres. thoug, tugprargay mock likela and jobatup gree doschit?
+joeylen(60)bunch of because i wanna. i can playiat stuff) you’re there at and, jo
+chandlerlen(80)ing the guy and i mine is    togethers. (and day? (she cas her. cagaughts to the dad? chan
+monicalen(100) hello, mr. timird? elevot my stay?! (to how like a dinner!! (sees her.) like you!...sheg huh? (she notice opb
+
+
+
+DIVERSITY: 1.2
+SCENElen(60) uh, a litt me.. gread takes an and convemsas. of piten bevage tole, t
+joeylen(60)i'll call ben no touch.). (she showickes for my wonders? then. already
+chandlerlen(80)f honour) addn’t is that fathen were delslye! cambing. a your my boy?! you’ll al-ow! pooss
+monicalen(100) hello, mr. gel they gave frord? ur-diaze. right drif husy no! leave anewsit how you sne-the wayle. you.... i!
+
+
+
+EPOCH 19
+{'loss': 1.6172445724929017}
+
+DIVERSITY: 0.2
+SCENElen(60),... thanks... (to the count the paines.. (can to the paines a bather 
+joeylen(60)el good! ... i take the bathroom.) i want the couch the couch. i want 
+chandlerlen(80)ing the guy i love the best the time the bathroom. (she starts to the can in the party the
+monicalen(100) hello, mr. i have to the restaurant? i want the bed.) i want to take the couch. (she starts to the door.) i w
+
+
+
+DIVERSITY: 0.5
+SCENElen(60): the comaning is the door... (she thiss alliges. (spisstating to from
+joeylen(60)be. there in the window been a baby day day and store. i looking to th
+chandlerlen(80)f honour) what’s a be off? and the man, i want some but a strigge start at the time. (they
+monicalen(100) hello, mr. they got the secret in a big famiver the took a carol in the big cord the complate it to see the p
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)ch is from of dowe set peoppouttelhiple to klews is, wise.    i'm hang
+joeylen(60)od! ...whoee sonds mes. y’know it’s-it gonna cos going his bollar.) wh
+chandlerlen(80) (finally down.) just walking on she have it, move my pithit. it's on uh, hed'dulsted, jus
+monicalen(100) hello, mr. romping! and i didn’t net her wmenit you saifhe, i want the wedme. is you can't catal seendly you,
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)g coma guy right? maker just.    stuck. (sme'ephises!cisculabug atm of
+joeylen(60)bursts in, forktis, stounghings striy. (rachel sometnoat! you don't ve
+chandlerlen(80)ally notice away... ben. (sed with best aldue twaupe. (lvent fackin’ bupny. i ross! com. d
+monicalen(100) hello, mr!ing now, y’know me, grandn’s us icdting too. shouping rike likes! and  out, that yout. and they-oka
+
+
+
+EPOCH 24
+{'loss': 1.6345079449545723}
+
+DIVERSITY: 0.2
+SCENElen(60)bunch of back a back is to the count the to the bather. it is a babik 
+joeylen(60)a guy's hand the chandler and then i was the bathroom in the baby? (he
+chandlerlen(80)he guest out the baby. i wanna be the woman is the bathroom who's a baby. i wanna be the m
+monicalen(100)o, mr. bing?! i can’t be a little this the chandler and the baby? (she starts to the thing the baby and stuff 
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)ollowed by somebodege is she well a carsaphany all hele hers. they put
+joeylen(60)od! ...whos? (he talks away be a little me man. (spoorly so it. i want
+chandlerlen(80)our) surprise a hand there i gotta go that he could candler and who amenes a cover the pra
+monicalen(100)o, mr. bing? (starts a chandler not them and still and he gets to in his best stuff    the door. i'm gonna tal
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)tle woozy, milich. over'vin houthing simhan here i grancing! bunns an 
+joeylen(60)uy emerges, it’s the baby mess! oh. (he gives phoebe to us? really? i 
+chandlerlen(80) (finally with that they happens and number, endiate all    seem an ones control i know ho
+monicalen(100)o, mr. binner you charlied it is trying a good. (joey sceebacks yourble.... (he picks how ammboke coanwort wai
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)ica and rach's offy it's nice's driwaf. misustastione. leantcecstide? 
+joeylen(60)nd rachel'd out iudment. i’m gonna be anting.) that are you?! i’m not 
+chandlerlen(80)our) surprise have there! phange. could have something... ania uncross... here hard evar.)
+monicalen(100) hello, mr.    evinemy's and open lady  i, cuts part in the dog a lot. you guys.) i'm lelons! you talk to how 
+
+
+

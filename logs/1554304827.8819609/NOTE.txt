@@ -1,0 +1,3 @@
+Better, but still my fault
+
+Made the generate_text function just take like 20 words in sequence from the flattened_sentences list which is just random now

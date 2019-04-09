@@ -1,0 +1,70 @@
+EPOCH 0
+{'loss': 1.8780829614030157}
+
+DIVERSITY: 0.2
+SCENElen(60)followed by his are you guys and i don't want to the couch of the couch 
+joeylen(60)nters with a good the couch off the couch and i don't want to do that wh
+chandlerlen(80)ur) surprised the couch off the couch and i mean you got a looks the couch the couch who got
+monicalen(100) hello, mr. i love the tame the good the couch and i don’t want to the couch of the couch of the way the couch t
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)scene: monica and enings party the cover the bading and i does a the hap
+joeylen(60) well, what i would god! they see maybe you’re be okay, good to make you
+chandlerlen(80)ticing the good and i don’t want you. you can't the treek of a dodraze with the tirhing the 
+monicalen(100) hello, mr. i love who have a little from the colling this is a clearly like you got a got the picked the sandwa
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)re stroking puss his   you. tuy is amaot cars streen twicksidentarots! w
+joeylen(60) so. i guess atst doed ead. you've their late plyfealimal miger in an ba
+chandlerlen(80)lly noticing..there?! i’ve waits up, this yak i have a didn’t gat on the tcripeset our. (he 
+monicalen(100) hello, mr. no every to.! you got in pleacent? with a really be the name i chandler! (ross. supe the everybleed 
+
+
+
+DIVERSITY: 1.2
+SCENElen(60) monica and charge. string fumsd? "jibes time. andi, fistlersany, phoebe
+joeylen(60) of a flushing reomeint, y’know, thas yeary hid cuter desfrans acts it, 
+chandlerlen(80)uest of honon your my bumcr. gets the way! we can’t. i coull’ll dat on oconing soreople'd at
+monicalen(100) hello, mr. yeke, mayther lacked is his   ! atying!!!! you've helpe. toing wetlyel nothsi! not trie serve., ohre
+
+
+
+EPOCH 9
+{'loss': 1.6017805822604094}
+
+DIVERSITY: 0.2
+SCENElen(60)with a bunch in the place with her bit in the stirte beforr from some on
+joeylen(60)nica enters and i will go to maybe i don’t know and i don’t look at the 
+chandlerlen(80)ur) surprise and i don’t want to break that i don’t know what i do that i don’t want to be t
+monicalen(100) hello, mr. to the couch stop is so that i want to come and the with the phone what i was sometive of the couch 
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)ing everyone rever who’s and the and shebbiss is about chandler some to 
+joeylen(60)h-a-sketch it to a beer who’s on the bit i don’t mean, you face the gett
+chandlerlen(80)lly noticing to surpet everything in the plate the con, i look do it was traping the starts 
+monicalen(100) hello, mr. stugboally after the ross.) okay? it’s the cotched. (he throws a will i want to fill a break. i don’
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)y's room, monalking her... alriey!!! getting? niverway. (wall.) so, are 
+joeylen(60)nters with a fum? it's on the nett is moving totally memnica.) i don’t a
+chandlerlen(80)ticing the getting my lifer, that’s erecain. i cat......)h-at thas, theys and rachel in the 
+monicalen(100) hello, mr. ffanelol) no-zhard in that sometelvutidea choms ugh with on the petop we know hasher, just said on t
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)ebe are telling to plain, umm?" (refour) fallwifficked, they keck, s, hr
+joeylen(60)uy's hair, would pushe 'cause a coussay, mumr? her relaksy look sine to 
+chandlerlen(80)f honour) sure is so first..., don’t worly, about dody. (wichy a gef. i thought in for her o
+monicalen(100) hello, mr. back, listen. (hives eific idee his gny dogt... i’d friend it   you give a nead. (hunny, some:.....)
+
+
+

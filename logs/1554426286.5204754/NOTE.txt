@@ -1,0 +1,88 @@
+run overnight
+
+first 200 epoch 100 ep run
+
+closing brackets etc by the end
+
+next all eps (less epochs?)
+
+
+very good but last epoch had this error:
+
+
+----- Not generating text after Epoch: 198
+
+Epoch 00199: loss did not improve from 1.27088
+Epoch 200/200
+2019-04-05 08:37:57.445920: W C:\tf_jenkins\workspace\rel-win\M\windows\PY\35\tensorflow\core\framework\op_kernel.cc:1198] Resource exhausted: OOM when allocating tensor with shape[15,128,386] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+Traceback (most recent call last):
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\client\session.py", line 1350, in _do_call
+    return fn(*args)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\client\session.py", line 1329, in _run_fn
+    status, run_metadata)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\framework\errors_impl.py", line 473, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[15,128,386] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+	 [[Node: lstm_1/transpose = Transpose[T=DT_FLOAT, Tperm=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_lstm_1_input_0_2, lstm_1/transpose/perm)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/Ben/PycharmProjects/tensorflow_friends/ScriptGen.py", line 237, in <module>
+    callbacks=[generate_text, checkpoint, tensorboard])
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\engine\training.py", line 1039, in fit
+    validation_steps=validation_steps)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\engine\training_arrays.py", line 199, in fit_loop
+    outs = f(ins_batch)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\backend\tensorflow_backend.py", line 2721, in __call__
+    return self._legacy_call(inputs)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\backend\tensorflow_backend.py", line 2693, in _legacy_call
+    **self.session_kwargs)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\client\session.py", line 895, in run
+    run_metadata_ptr)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\client\session.py", line 1128, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\client\session.py", line 1344, in _do_run
+    options, run_metadata)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\client\session.py", line 1363, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[15,128,386] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+	 [[Node: lstm_1/transpose = Transpose[T=DT_FLOAT, Tperm=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_lstm_1_input_0_2, lstm_1/transpose/perm)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'lstm_1/transpose', defined at:
+  File "C:/Users/Ben/PycharmProjects/tensorflow_friends/ScriptGen.py", line 87, in <module>
+    model.add(LSTM(128, input_shape=(maxlen, len(chars)+len(characters))))
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\engine\sequential.py", line 165, in add
+    layer(x)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\layers\recurrent.py", line 532, in __call__
+    return super(RNN, self).__call__(inputs, **kwargs)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\engine\base_layer.py", line 457, in __call__
+    output = self.call(inputs, **kwargs)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\layers\recurrent.py", line 2194, in call
+    initial_state=initial_state)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\layers\recurrent.py", line 649, in call
+    input_length=timesteps)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\keras\backend\tensorflow_backend.py", line 2833, in rnn
+    inputs = tf.transpose(inputs, (axes))
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\ops\array_ops.py", line 1392, in transpose
+    ret = transpose_fn(a, perm, name=name)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\ops\gen_array_ops.py", line 7687, in transpose
+    "Transpose", x=x, perm=perm, name=name)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\framework\ops.py", line 3160, in create_op
+    op_def=op_def)
+  File "C:\Users\Ben\PycharmProjects\tensorflow_friends\venv\lib\site-packages\tensorflow\python\framework\ops.py", line 1625, in __init__
+    self._traceback = self._graph._extract_stack()  # pylint: disable=protected-access
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[15,128,386] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+	 [[Node: lstm_1/transpose = Transpose[T=DT_FLOAT, Tperm=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_lstm_1_input_0_2, lstm_1/transpose/perm)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+
+Process finished with exit code 1

@@ -1,0 +1,37 @@
+Took mega ages yo
+(maxlen 10,step 1)
+
+OUTPUT:
+Lines: 6987
+Using TensorFlow backend.
+[[0, 20], [4, 30], [5, 30], [3, 30]]
+2019-04-04 01:53:27.373658: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+Epoch 1/50
+ - 1292s - loss: 3.1904
+
+----- Generating text after Epoch: 0
+diversity: 0.2
+SCENE: to rachel) let's go to the door. . is are to the phone.
+joey: work here, aaand it's the little is a little of the table. (she ) the phone) oh,
+chandler: dumping barry at the altar! (he rachel and monica and i don't know that is a little of 
+monica:  still you dumping barry at the little of you don't know you is a little of the people is
+diversity: 0.5
+SCENE: ) thanks, bernice. (to the phone is the door. . to the table 
+joey: , kiki, and joanne are the head of the pretty and a views of that is a new of the
+chandler: to show off her engagement and monica and the alone up the place of the eva of the way, i
+monica:  perk, rachel, lesile, are you get the said guy? you don't think you can get a kiss
+diversity: 1.0
+SCENE: the mirror on barry's wondering on feature,  . (, success.  do is
+joey:  you dumping barry at the realises, apartment lrr, and ross. you don't it's really about you 
+chandler:  ring and they all scream? i family just going over this about animal to chandler,   it wasn't
+monica: , the biggest news is the soda! (joey) a last didn't know, like, you you you d
+diversity: 1.2
+SCENE:  be right there, bernice., 30.. were puts pauses table... on stuffed
+joey:  ring and they all scream from occasions alone mario handsome ow! as, stand were plane. .-wipingmeansher.
+chandler:  and while we're on, knockout boss'sparky baby...i cannot inappropriate? em shirts? first gianetti from 
+monica: , aaand it's true! dealt? susan’s and your is who resembles licking me hassidic an hbo up. do
+
+Epoch 00001: loss improved from inf to 3.19042, saving model to weights.hdf5
+Epoch 2/50
+
+Process finished with exit code 1

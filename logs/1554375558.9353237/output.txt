@@ -1,0 +1,204 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+SCENElen(20)know, you were right? i mean, i my the the are the and the to the 
+joeylen(30)were in the city shopping, and your the the a the the to the to to to the the to a the 
+chandlerlen(30)scene: central perk, rachel, lesile, kiki that the the his the the of to the all to the your the a
+monicalen(30)were in the city shopping, and your a the to the of the the the of to the the the the to 
+
+
+
+DIVERSITY: 0.5
+SCENElen(20) it, i can't marry mindy. and work to day with of those to waiting   
+joeylen(30) here finger to show off her engagement to high are to of for the   are the happened to a talking in 
+chandlerlen(30) and while we're on the subject d to and to her in for the until leaves this again  , i phone
+monicalen(30) well, the biggest news is still you the say to a with with the with out to the it for the lot
+
+
+
+DIVERSITY: 1.0
+SCENElen(20) gives it to rachel, they kiss as both  , charging ross think no must never must 
+joeylen(30), rachel, lesile, kiki, and joanne guys i a they eight the counter mindy ll pluck then, not a cuddling not
+chandlerlen(30)scene: central perk, rachel, lesile, kiki, i where looking laundry'are sex and avenue affectionately)thingi i thing you) 
+monicalen(30) well, we were in the city shopping can no amused. i seal, you you what when and inside shakes gotta each
+
+
+
+DIVERSITY: 1.2
+SCENElen(20), it's fine. robbie's gonna work with for of let enters. the mighttoserious. 
+joeylen(30)(she holds up here finger to show ll foot. then are to-happen, tense idea? then plays , alright-. would
+chandlerlen(30)holds up here finger to show off her his. (work) lesbian food priesthood i when let tooty 10 yourself to!as 
+monicalen(30) your mom said you work here, aaand schmush. 'i hit ). middle, deal to '.! cause'sawbangs i 
+
+
+
+EPOCH 9
+
+DIVERSITY: 0.2
+SCENElen(20) see, about a month ago, i was just a little job. .... (. god
+joeylen(30)biggest news is still you dumping barry at his new? (he and the door the door) ... you know that 
+chandlerlen(30)biggest news is still you dumping barry at his hair? could me a a little table in a room in his room,
+monicalen(30) well, the biggest news is still you re to go to a and monkey, that you were in a ! at 
+
+
+
+DIVERSITY: 0.5
+SCENElen(20).. uh... what're'you.......... to admissions and his room are
+joeylen(30)scene: central perk, rachel, lesile, kiki, hey, uh, okay, you know with that room with a whole of gum
+chandlerlen(30) show off her engagement ring and they all to the door with his baby door... (... chandler... you
+monicalen(30) the city shopping, and your mom said up a little phone, when his no rachel as they have all to her 
+
+
+
+DIVERSITY: 1.0
+SCENElen(20) it, i can't marry mindy. (she guy naked, ross   a important gone from 
+joeylen(30), and your mom said you work here, you think we are a change and little gone to everyone in after the 
+chandlerlen(30)off her engagement ring and they all scream all the night, and i had that that he 's greeting-a ho he
+monicalen(30)central perk, rachel, lesile, kiki, and it was like how you want you all for we still off your kitchen, 
+
+
+
+DIVERSITY: 1.2
+SCENElen(20) look, please, please don't go like one in a own. with old... important.
+joeylen(30)biggest news is still you dumping barry at people something. here i ve wanted a little working with brother. she just thinks
+chandlerlen(30)holds up here finger to show off her funny is thinking?- if you don't want and one gone the bed about
+monicalen(30) well, the biggest news is still you were will office? look table! sorry! we can, you anything and mere life
+
+
+
+EPOCH 19
+
+DIVERSITY: 0.2
+SCENElen(20)so sorry, i'm an idiot, i because down this. (he enters. ) great. a
+joeylen(30)city shopping, and your mom said you keep me for a woman time you got any big in  ... the the
+chandlerlen(30)(she holds up here finger to show . go , more of a monkey... (listens) i'm sorry... 
+monicalen(30) you work here, aaand it's true! who you anyway. the door you you and they you're a little man
+
+
+
+DIVERSITY: 0.5
+SCENElen(20) ago, i wanted to hurt you. room, y's my a good. ross is there.
+joeylen(30) the city shopping, and your mom said her he got  'll ' to did. joey is tell him over here 
+chandlerlen(30) is still you dumping barry at the 's ? 'sorry, that's not the .. see stuff not she come 
+monicalen(30), and your mom said you work here. (he    to and the other back.. how give you something something 
+
+
+
+DIVERSITY: 1.0
+SCENElen(20)'ll just—i'll just break it off the coffee be. go a trying to be, and 
+joeylen(30) your mom said you work here, aaand but that about the store call friends and tell left kiss., date? you'
+chandlerlen(30) we were in the city shopping, and his dinner. hand to go with the bathroom. nothing might get with me..
+monicalen(30) we were in the city shopping, and code away) mean, pheebs! we think you should get just you up, that
+
+
+
+DIVERSITY: 1.2
+SCENElen(20)intercom) be right there. (to robbie in a little ? playing what a hall. anybody mean
+joeylen(30) subject of news.. (she holds up) ?) you gotta put it! yes (  up at his some sorry, 
+chandlerlen(30)scene: central perk, rachel, lesile, kiki, yeah....oh, here...you - very of check back ice in 
+monicalen(30)of news.. (she holds up here he goes to her gonna gives it back with bye... thinks... , 
+
+
+
+EPOCH 29
+
+DIVERSITY: 0.2
+SCENElen(20), i am so sorry, i'm still sitting around you around' and her..... 
+joeylen(30) show off her engagement ring and they said that her name about book in ... might take that look your better 
+chandlerlen(30) and while we're on the subject of you, who, susan, an on these, 're friends phenomenal other sorry.,
+monicalen(30) well, we were in the city shopping, at will behind her said talked in said wearing friends  and rachel head it
+
+
+
+DIVERSITY: 0.5
+SCENElen(20)know, you were right? i mean, i's been take talking will still sitting out with 
+joeylen(30)city shopping, and your mom said you are am anybody about any? you need gotta hit every with you?, gotta teacher
+chandlerlen(30) your mom said you work here, aaand didn't be your these-as much pretty other there..., boss friend in
+monicalen(30) the city shopping, and your mom said really should had have a m pink... the .... lying. he'
+
+
+
+DIVERSITY: 1.0
+SCENElen(20)m sorry, god, i am so sorry, and coffee about some vendor face, ross, two 
+joeylen(30).. (she holds up here finger to there, thanksgiving code just room the table half. we're break's two for
+chandlerlen(30), rachel, lesile, kiki, and joanne janice off his told...you looks it hair. when you guys too, and 
+monicalen(30), and your mom said you work here. i mean, we didn't have to be anything what important? we each 
+
+
+
+DIVERSITY: 1.2
+SCENElen(20) intercom) thanks, bernice. (to rachel) rub's round as door stop knows, monica love 
+joeylen(30) is still you dumping barry at the " ones? fair coffee up all like your girlfriend gotta doctors.. janice, the 
+chandlerlen(30), and your mom said you work here...i didn was nothing playing eight! i watching that made, said when we
+monicalen(30)scene: central perk, rachel, lesile, kiki, ice...sarcasticly happy........you ankle making the way? (an
+
+
+
+EPOCH 39
+
+DIVERSITY: 0.2
+SCENElen(20) weren't happy. but with mindy, which is new barry. (listens) or mindy.it..
+joeylen(30) is still you dumping barry at the  wait! even gone, what do you got? like about?. there go this 
+chandlerlen(30) you work here, aaand it's true! who mean you just? but because we don't want the plane poker him
+monicalen(30) here finger to show off her engagement kid.. and the day about one! ross don't gonna be why who ,
+
+
+
+DIVERSITY: 0.5
+SCENElen(20)uh... what're'you... what does are very take. this has just like making 
+joeylen(30) your mom said you work here, aaand got i get  ! uh, so anything? right? play? chandler ask god,
+chandlerlen(30)mom said you work here, aaand it's it! yes down. my call on over) do. what do you see,
+monicalen(30)biggest news is still you dumping barry at out? please you you, this? yes just just go. if you...not
+
+
+
+DIVERSITY: 1.0
+SCENElen(20)'t help myself! whatever i did, i should what there like mindy about. ross comes still
+joeylen(30)mom said you work here, aaand it's like your real you, y'know, monica 'cause about work want me, 
+chandlerlen(30) and while we're on the subject with the guy, play'why joey, when the blind- something his job..."
+monicalen(30) well, we were in the city shopping, after goin'm in here actually eat sheet... like all. easy, like
+
+
+
+DIVERSITY: 1.2
+SCENElen(20)you... what're'you guys doing people. they re eating gonna question they've very around
+joeylen(30)central perk, rachel, lesile, kiki, and over them't'.............oh-(can first right out
+chandlerlen(30)central perk, rachel, lesile, kiki, and me enters three always said calls you mean-what we will brian.. you could
+monicalen(30).. (she holds up here finger to move, just goodnight... that... (shakes his down) 's-show here
+
+
+
+EPOCH 49
+
+DIVERSITY: 0.2
+SCENElen(20)! whatever i did, i only did right care there. but hear having wanna which around, 
+joeylen(30)scene: central perk, rachel, lesile, kiki, joey's.", hey what..they'm got the man. finally go to
+chandlerlen(30)mom said you work here, aaand it's it! carol starts with his ball wanna body up of something game, she 
+monicalen(30) the biggest news is still you dumping my your life?.. hi like me. (getting him to move back today))
+
+
+
+DIVERSITY: 0.5
+SCENElen(20). so. what have you been up with need her ' in she be taps next conversation.
+joeylen(30) the city shopping, and your mom said name? i was afraid one! y'know what he has an apartment, it'
+chandlerlen(30) well, we were in the city shopping, yes.... walks into a mom and her.s voice up of her.
+monicalen(30) the city shopping, and your mom said bing we was see a (? okay for a right still sure doing anyway 
+
+
+
+DIVERSITY: 1.0
+SCENElen(20). it was really nice. you would've see like care told try make desk's make 
+joeylen(30) your mom said you work here, aaand say that... uh-serious these more used to be ll caught one run-
+chandlerlen(30)central perk, rachel, lesile, kiki, and then into an lesbian like still find of tips doing said of,.. water.
+monicalen(30)while we're on the subject of news. go, balcony is then hair) when maybe has two and sits, so we
+
+
+
+DIVERSITY: 1.2
+SCENElen(20)... i'm sorry, god, i don't have care like new thought which obviously we
+joeylen(30).. (she holds up here finger to did, mr. unless lewis are move, such a play! (single down. it
+chandlerlen(30) your mom said you work here, aaand push's it! carol teaches could be always free me goodacre... (havenlick
+monicalen(30) well, the biggest news is still you shave? now this poker me, need, right to right over, so still, 
+
+
+

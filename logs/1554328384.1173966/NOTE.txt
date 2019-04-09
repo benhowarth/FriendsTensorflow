@@ -1,0 +1,1 @@
+THIS AND NEXT FOUR just testing oout training length etc and trying to find source of key error on line 150

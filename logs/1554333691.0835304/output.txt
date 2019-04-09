@@ -1,0 +1,34 @@
+EPOCH 0
+
+DIVERSITY: 0.2
+SCENElen(20) i, uh- i went to aruba. it know a the the the you the and the
+joeylen(30)(she holds up here finger to show a you a you the the of the a of a you the a of 
+chandlerlen(30)(she holds up here finger to show the i a the the a about the the the me of the the my 
+monicalen(30) is still you dumping barry at the the the to the the the of the the the you the the the you 
+
+
+
+DIVERSITY: 0.5
+SCENElen(20) i can't. i can't do starts a this a    . there . the 
+joeylen(30)off her engagement ring and they all scream you was you a the in a paul was for at in a taught  
+chandlerlen(30) well, we were in the city shopping that a place woman of a it. (, i on the were not if
+monicalen(30) the city shopping, and your mom said you you! i you to the the the stuff the god, you for the
+
+
+
+DIVERSITY: 1.0
+SCENElen(20)i only did because i love you so a must yeah- . the rachel. i was in
+joeylen(30)city shopping, and your mom said you little a can) i decaf i have . the said s idea) special my 
+chandlerlen(30) we were in the city shopping, and it.... you'while a know) the there're back t just dance 
+monicalen(30).. (she holds up here finger to a see. god, got you that's lot, i to it been a 
+
+
+
+DIVERSITY: 1.2
+SCENElen(20) ....mindy. mindy, of course stands the control belly.could! in in'was on and
+joeylen(30)on the subject of news.. (she table.!(this gets special! you all with a naked. must. at) you,
+chandlerlen(30) the city shopping, and your mom said.-importantiswillloveexcuse''the?cd'was in. he.. monica to alright? do
+monicalen(30) the biggest news is still you dumping there. they fatherhood to move "yes up the tap that about absolutely the'was haven
+
+
+

@@ -1,0 +1,175 @@
+EPOCH 0
+{'loss': 1.8229515613589984}
+
+DIVERSITY: 0.2
+SCENElen(60)f a flushing the fround the baby to the baby have to the baby and i was 
+joeylen(60)s room, monica is a man is the baby one one that was the the way the bab
+chandlerlen(80) of honour) and i don’t want to talking to the couch the baby the couch, i don't you guys wa
+monicalen(100)lo, mr. bing the baby the could be in the baby think you marry he think i don't you got the baby the baby the co
+
+
+
+DIVERSITY: 0.5
+SCENElen(60) the sound one for the lefter is been with will make baby, the posted to
+joeylen(60)s room, monica, i mean you know i was for your mouth the burd to put and
+chandlerlen(80) (finally no, i mean, what? and you look to her thoue that is in the baby have to the door t
+monicalen(100)lo, mr. bing an again out and i said we have to make to the have with it well, do you say the talking to the fro
+
+
+
+DIVERSITY: 1.0
+SCENElen(60) alright, i'm not biguy action of a watting to with phorecebed letmese? 
+joeylen(60)ight, i'll call. i'm know, what? so you know i'm never leck, i have ewcu
+chandlerlen(80) (finally no your allick. yeah, that’s notte do? (paitfry throw a coue.) way i ross, with ye
+monicalen(100) hello, mr. there new doing. i’m mmes let reveally hate?! look..! uh, that on here. and she thoush, i shirge?! w
+
+
+
+DIVERSITY: 1.2
+SCENElen(60) bunch of batry rventwerstona. (looking in a bad too. (enses by nix! (pa
+joeylen(60)ou want me thark you fill, snacent, yeahs.) this uh, you marry her pais 
+chandlerlen(80)uest of honoorsmen, she mem.. nighticny. whenh, andti. (pause) of it dewrokey! (youll libin.
+monicalen(100)lo, mr. bing now! ok, was have you, we're veening check! and, when you hays has phoebe (pause) that isar's have 
+
+
+
+EPOCH 9
+{'loss': 1.8503579571875397}
+
+DIVERSITY: 0.2
+SCENElen(60)llowed by phow and and the and the and and and wait and the what the wha
+joeylen(60)ere is no sighing the starts to the starts at the start and the starts t
+chandlerlen(80)he guest of the start to make to the starts that to the like to she we could so the starts t
+monicalen(100) hello, mr. so the stare and and my and it was the start the couple the stard to the married the guy a little ge
+
+
+
+DIVERSITY: 0.5
+SCENElen(60) uh, a littlech in trassherfurfenchring nowheat's, where!!!! gick and he
+joeylen(60)g everyone and it's be the door to she on to the gade starts gime you an
+chandlerlen(80)ur) surprise day what lasten-d-ent to sister for some what they be the to chandler of the de
+monicalen(100)lo, mr. bing anywhen a pallle with to try one sees at stares you and what have to meate with in have of me one s
+
+
+
+DIVERSITY: 1.0
+SCENElen(60) a little wome avickoffy nuy inwhoffreeich syctonituftit with oppotti an
+joeylen(60)om, monica buts mault all the fame getting cated so couple each thumere 
+chandlerlen(80)ng the guesths umm, whatr snabh teee to happy.) what ih, how japt you be them a little leds 
+monicalen(100) hello, mr. you. joke is a come biy?! i’m allit he want you talkice. (he not. y'know hey, do y marryes like luck
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)scene: the cherote) sranoxh it-irion with maker gimn tas, the cangs call
+joeylen(60)llowed by phoeft anything teilp? klleut saod? my breasoot, you to parce 
+chandlerlen(80)he guest of keal even dences leate? why, daadinat   d-tese axats me? is were corlort ever ta
+monicalen(100) hello, mr. packs to vend? brid y'know everit clever asse it. just do' over and a doithdy. she’s twodpar mirle s
+
+
+
+EPOCH 19
+{'loss': 1.868567530799499}
+
+DIVERSITY: 0.2
+SCENElen(60)l see you are the the the the the the the are and and and and and and th
+joeylen(60)ere is no sitht the starts the thing that it the starts the going to the
+chandlerlen(80)ng the guest to go the should the starts for the me that that that and i don’t do that it th
+monicalen(100)lo, mr. bing a so a right it the and i should go the going to the parsting that and the thing here was the start
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)bout their chair. (the are don't! the and i have and why irred-is gill-i
+joeylen(60) from the ba the frang.) okay? (mey.) i love to like a pontt and a and i
+chandlerlen(80) of honour) (chandler you was the thing the many the phone to the and you’re gonna start tha
+monicalen(100) hello, mr. tally. oh don’t do on but what i have it on the part it. (they can’t it the doands in the going to g
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)nters with angitings'lrodambasnyt cheinuir. ack-iswwe artatimeday misbor
+joeylen(60) so, the etcess aska and on guys and gor this feech, i would all friendm
+chandlerlen(80)nally noticinel to just gonna be ewwesler? who right?! i’ll be all thing warn assthoinwering
+monicalen(100)lo, mr. bing) lake is and we could anything help amast. work files the sittrat somemoning man, i mean, we emlauc
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)hoebe are terrin waghbring alrour it japwippill epouws the pothevy. ora'
+joeylen(60)lling everyone? man! gives’s, wom[phly's it is a thos pont. who some sms
+chandlerlen(80)y noticing talkay’s that put at one uirbule me. i’m she givelroright’s a all, hand girl-my w
+monicalen(100) hello, mr. i just leave abvee? but hi not those. yeah. we spforiesament.) very, it’s off?    you want to diver!
+
+
+
+EPOCH 29
+{'loss': 1.933581253257866}
+
+DIVERSITY: 0.2
+SCENElen(60) i feel good i her the start the the bunting her andwo the stante andwar
+joeylen(60)uy.  his bedroom.) (they see the stands the some and it and you want the
+chandlerlen(80)ng the guest the stop the someth nent the stang the something the the something the good and
+monicalen(100)lo, mr. bing it and here and the good the staps the chandler’s the something it the that the something it was th
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)let and coman her the cry) kisth out her the conting wate a lon's counk.
+joeylen(60), i'll call the doing it the best and a little her and but? i all the bi
+chandlerlen(80)he guest of back to parting. (so asking a makes a look to the really is month thing. i at an
+monicalen(100)lo, mr. bing. no. (he goes it? (ross thing chandler the time it stape his stage for roomble on the pied the so t
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)h-a-sketch i'lmor'sucuthmris gum all. with virts.) acce wes you if wone 
+joeylen(60)there is the like like of malk... you fise? now. i out! and ip ty that g
+chandlerlen(80)honour) surps is brantar piusey) (chandler.) (hore tear. (he goes a again.) (pars’s that hel
+monicalen(100) hello, mr. taking bob! please hey'sns go its. bye! oh? dinney. igo's can’t ufnfoy the that chandler.) i other b
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)ere is no siftesfiad, lestis the wers. anotition. her marrwanting. goy?!
+joeylen(60) well,... this is apartous dinners! well now, remember as rucs me?! ther
+chandlerlen(80)uest of hono jogein this i-ribct this from pausted) you get us) ah’is!h-at a is not wice! so
+monicalen(100)lo, mr. bing. showe!!! it paunder.) roach! makes because    with you’ll cami(dfaoe! kiol! not reads) ross... (cl
+
+
+
+EPOCH 39
+{'loss': 1.955823687073897}
+
+DIVERSITY: 0.2
+SCENElen(60)e is the sound the starding? i why, is the corter the parpers the start 
+joeylen(60)nd of a fluse and me the lik-ver the wates the because we want to the wh
+chandlerlen(80)ur) surprise and i start the some the the start the chang have a could the the chang the car
+monicalen(100)lo, mr. bing something and i was the cramping a start my the couch the the cang the chandler be t's the some the
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)ma guy.  his shore out ming!!!!!!... we'dn’s chands anrwingor hey! to mp
+joeylen(60)s in, closel in exmy and the pant! there are well hey was the big there 
+chandlerlen(80) of honour) how see it the man. 'tex so her because back the not her and it! i’m pariters wh
+monicalen(100) hello, mr. the the last.) (they be my the bed and i herp the the thing there. i’m cont a something that the doo
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)do you want the mublesling ano, i of gicanalt schighhoct. of givool)! sa
+joeylen(60)tal. phoebe funny mean. to hagh out thee into the pator. there voing him
+chandlerlen(80)ticing the go. 'den. you this shi doning there (meanromal me? bedroiesit, what? secial marri
+monicalen(100)lo, mr. bing. what io? you're fafoo. show's from admugk for seem this backses makess persticutare. what cude aip
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)s with a bungali janoylan kbous mpappamy.) ano my gis... shtarving... of
+joeylen(60) emerges from namen wetrers. last feetens! exiptiase movinto? readard gu
+chandlerlen(80)uest of honol, he know, you stop? you were tabl the not thriwe eestitocu! hey leaves. bebtor
+monicalen(100)lo, mr. bing)! i'm going upaiating. helse! i-i ping i decies.) we are , your you, like    this breed still thing
+
+
+

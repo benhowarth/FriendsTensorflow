@@ -1,0 +1,245 @@
+EPOCH 0
+{'loss': 2.221070671786366}
+
+DIVERSITY: 0.2
+SCENElen(60)monica enters with the thous the bood and the gots the goys the couss the go
+joeylen(60)nd of a flushing and they and the hood. i mon't the thing the could and the 
+chandlerlen(80)ticing the guest the could the got the could thing the goys thing the way and the could the coul
+monicalen(100) hello, mr. bing thing. (hass. i mon't the goys and i monica we little soring thing. i mon't thing. (ross. i monica 
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)bout their coma in the gong the cand. oh? you know wher some pating and heal
+joeylen(60)rges from the bast that show and and it a poons stoppes a moon the for and t
+chandlerlen(80)y noticing the goys and the soorch, why. (and you go guys and the doon, what this that this on. 
+monicalen(100) hello, mr. bing. what whind it's just wook there you don't way some with you lloke you godnithts undoon..... you go
+
+
+
+DIVERSITY: 1.0
+SCENElen(60) guy emerges fromgo cittarding. sn you hook?ne thacks, om then..... 'roca. o
+joeylen(60)osely followed buls and hood could? of sonny. .'mching lertsfanf in lyokn is
+chandlerlen(80)nally noticing thit, oh, i thit. (suscit's feantelsc. (tapses. you k hass, shat yous hissiad. wh
+monicalen(100) hello, mr. bing ow and they's hove an the bitcyiple, you know uh) you, leetre) i not do. .foh, ead anthing, who nom
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)h-a-sketch is frysp:anu! (sesd. thitand thesicu.oher. setsrejbodtare, hends:
+joeylen(60)tal. phoebe is thine wbliem-contow."y'ge of you kea., that mo!s) eft cas no.
+chandlerlen(80)he guest of honor. what guy .viene: rachell othay.. grtis and you wan this now you.. moricm.' th
+monicalen(100) hello, mr. bing. hench, i anig he goyayoos. thay and schet cof's do ddingsongt abluygns, i dris and any, whican mea
+
+
+
+EPOCH 9
+{'loss': 1.3175036573135703}
+
+DIVERSITY: 0.2
+SCENElen(60)monica enters with me and the girty is stirt of the side. i mean, it's not s
+joeylen(60)monica enters with me. i mean, i have to to be my first to the more. i mean,
+chandlerlen(80)nally noticing the door. (chandler like i was seen to play with the stort. there's not start par
+monicalen(100) hello, mr. bingious them... what's not to be on the parents to the minda to the more. i mean, i mean, i mean, i mea
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)lling everyone and monica is tell rick up and corfuetion a little mor. body 
+joeylen(60)coma guy emergest. i mean, i know it's not a ponerse of it. i know it's just
+chandlerlen(80)uest of honour) careed in the girls. i mean, i do it was monica) we gotta get to did you good to
+monicalen(100) hello, mr. bingioued now i'm says and she is a girl to the girl for ther at and somebody conlich to the misst with 
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)monica enters with the patcof couldn thank gonni go alout me, you leaven't d
+joeylen(60). there is no sit's shotter? coff i incan) hi, but it's may, room felling th
+chandlerlen(80) (finally noticiavaknught. your your a little doing aurnuth plan like. thes, orrid again, i know
+monicalen(100) hello, mr. bing? nobs. we don't tear! son hering... i'm akving. wes so smide aum... i mever taking a dissie from ) 
+
+
+
+DIVERSITY: 1.2
+SCENElen(60) but basically on the fur. he. it's un spipsearr of here? inf,, ross. ruchar
+joeylen(60)e: monica and racken gettage a play me  was, oh, you pretthre can. i meaf so
+chandlerlen(80)y noticing the gives! pretty abvigling up.red mn. do, man we just be big snow wisn. cisn, do thd
+monicalen(100) hello, mr. bing! um? wise hi) 'bleffemam, sheal talkotaniduon me? did i susatia, and dingi, and screen homa bobber 
+
+
+
+EPOCH 19
+{'loss': 1.2250135869568322}
+
+DIVERSITY: 0.2
+SCENElen(60)f a flushing toing the give in a little barry. (she stands him and starts in
+joeylen(60)chel's, monica and the card. i mean, i mean, i mean, i mean, i mean, i mean,
+chandlerlen(80)ng the guest of the can. what? you know, i was just so mally have the living and the rocat of th
+monicalen(100) hello, mr. bing. i mean, it's not the party. (to the lams here. i mean, it's just so stop start with the probach. (
+
+
+
+DIVERSITY: 0.5
+SCENElen(60) toilet and comased from the last stuff of hairly lame- precusure the. they'
+joeylen(60)ozy, but basical like the? i have to talk and like it was, so i think i told
+chandlerlen(80)nally noticing the lived the most and the rocate) oh, i'm gonna take that was the still have the
+monicalen(100) hello, mr. bing. how and they was a litter night. you know, they don't gotta do snot on the most the ends i doing? 
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)om, monica burst?  chanfler mrc? umbfaching... (a fess the dys) how to do sh
+joeylen(60) i'll see you are they walk tell of 're. they're like, come toetring toep...
+chandlerlen(80)uest of honour) he. well, it's my "best mom more and herppase of window, woo think i told my unt
+monicalen(100) hello, mr. bing. what're you know it, ross) on i hard, that's boy it) ross agains. oh, good well, for your kindting
+
+
+
+DIVERSITY: 1.2
+SCENElen(60) i'll see you ard all.tve graving plecped) cover wigahe bandy. and beffreddc
+joeylen(60)ursts in, closel,  ) (goes to famsuntould that you always diff herm? (he's s
+chandlerlen(80)ticing the guest is pranceucing.) her upsay.. ross thisn nel ! i don't know ) oh's traind the. s
+monicalen(100) hello, mr. bing. i, i didn't pave a guyp, but stursly up) oh, i'm, and there just lips the. who dining, and 'joey l
+
+
+
+EPOCH 29
+{'loss': 1.193109704367345}
+
+DIVERSITY: 0.2
+SCENElen(60)e is the sound of me, starts to call her.) ross) all the bost two the guys h
+joeylen(60)g everyone about my my mom? oody, it's just go the street be with her is the
+chandlerlen(80)ng the guest of you this was, you know what i would be meantwarges and she was the compling from
+monicalen(100) hello, mr. binger. i mean, i mean, it's just the bit the shor and smeen having a stranks and joey and joey and joey
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)s with a bunch of in you know the ble bles in just twithing astre) he givesm
+joeylen(60)there is the sound if you got the coffee her) okay, you got a place. so i wa
+chandlerlen(80)he guest of honor marry auralf. (hey, you know, you know, and there with her back her perfor. (t
+monicalen(100) hello, mr. binger. well, i have the bedroom. (then a give me a caller the shot. (she says the room. possible mom. w
+
+
+
+DIVERSITY: 1.0
+SCENElen(60) stroking coma get her andpauchs starts in an hues a clappect with me. do yo
+joeylen(60)e: hospital. phoefe with the pessibling. just, it amapindung with you gonna 
+chandlerlen(80)honour) surpriself umbnoble can befriand me in big perentsaate'se two weed this is some game dow
+monicalen(100) hello, mr. binging. huh? rachel no is a pred chades it into room- slipter? i would go antwer andn't you thinking? i
+
+
+
+DIVERSITY: 1.2
+SCENElen(60) the sound of a flune jaking start is misss. here- withtasfaremy cle"cing to
+joeylen(60)f coma guy.  his purnen m? us. it's the ais the other. just just just bly jo
+chandlerlen(80) (finally noticing, way ross are menove how, demp that as leftel tyou. i swemper. there with now
+monicalen(100) hello, mr. bing up. the clasr walks ittarion? roundy the conveds mianily happy ha"s? why, watching, but bearth, no.
+
+
+
+EPOCH 39
+{'loss': 1.1787997147036071}
+
+DIVERSITY: 0.2
+SCENElen(60)ospital. phoebe starts to the couce the stramagn stracks he starts rachel an
+joeylen(60) bunch of balloon, and the coull hell her the part! it's not go to be (stuff
+chandlerlen(80)y noticing the guy who it's this thing is a little stuff. she give to make he was could is a pre
+monicalen(100) hello, mr. bing. (she says happen? i mean, if you're sorry! then that i was a little shoe, you know why work was ha
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)om, monica burst his barry. i got a little couce, still in here. (of you goo
+joeylen(60)uy.  his bed is a second. i was a prestion cat joey's gonna haprent. i mean,
+chandlerlen(80)y noticing the girlfriend drimm watching and the pretty. (she said the someone- yes,"(fluys and 
+monicalen(100) hello, mr. bing. (ross'sxn! (get the mater short. what? i don't wanna tine them your guy is not sorry, i have to be
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)is there stroking her kilf you, burnc) all liking fluyt unmanksuptory nildie
+joeylen(60)good! ...who are the coursion, dm) ok. and my's the strowie it under him] ..
+chandlerlen(80)uest of honour) viey woney... i don't you're joey dasping and i that sexid shotsing. (walks alon
+monicalen(100) hello, mr. bing, she cranger, we need the sacilsion, having janica's now, and feceuse this is nothing so sweethi. (
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)e is the sound of monkey, it mork a monica. rachel and sibpicg perfries hulp
+joeylen(60)ma guy's hair, we're sorry. (listens and some cured! ross!ulight i belweve, 
+chandlerlen(80)he guest of honor dreaking about gone? oghahing from the washing you is 'be talking outs ma. the
+monicalen(100) hello, mr. bing. (walks onks it. (reachel, howah, swigr standler and hocking. withwere. (fluying to taving phoebe a
+
+
+
+EPOCH 49
+{'loss': 1.171508840522845}
+
+DIVERSITY: 0.2
+SCENElen(60)d rachel's, monica's all the late) so and stuffpet with tjoe.] (she does the
+joeylen(60)h-a-sketch is from the cart is the world. i mean, what? i mean, i've got to 
+chandlerlen(80)uest of honour) (to the rest of the pretently done the signd... i'm goin's think that what is th
+monicalen(100) hello, mr. binger the thing, i mean, i'm goin's any buse this was the shoring and the table) oh, i mean, i'm going 
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)rges from the barry spiling there, gream. face.) day that's both spince.) al
+joeylen(60) etch-a-sketch in the way about this who worker? that's partair. (to take a 
+chandlerlen(80)uest of honour) no, no, i'm gonna be a pred! (takes a people. those worrs, and the rechanger. th
+monicalen(100) hello, mr. binger with the pretty want to take a miles the picked the door and any is like that this pretty mading 
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)y followed by phoplain, are bobed the dig noid, i feelens)... know, in the g
+joeylen(60)nd phoebe are tealring, all riger..] (do sotter.) yeah, no, i've think our h
+chandlerlen(80)ng the guest of in the way the resopsty friend this. there that's you am woman is it would reall
+monicalen(100) hello, mr. binger and in minaudala, did the gir. (chateles every snuts the nower. i mean, i've gotta go somebread? 
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)rges from the badzy, dardy! clos niefting ments.b malks), i can so cockingio
+joeylen(60)e: hospital. phoef this is been? i ame aghould thep. i pweft all ofeed in th
+chandlerlen(80)ng the guest of that. do it, what do it, that's nothing and laugle on them anmaten out and she r
+monicalen(100) hello, mr. bingens in them vinuts rachel andther) after you're goin w me fun mw you guys to you had a signing me. i
+
+
+
+EPOCH 59
+{'loss': 1.1634687591928328}
+
+DIVERSITY: 0.2
+SCENElen(60), closely following on the coffee there.) she's gonna be heart the coffee tw
+joeylen(60) bunch of balloor. it's a cott of the way a paying the could be with the spi
+chandlerlen(80)y noticing the guys are the someoon, you think that was a little be one of is at the socking a p
+monicalen(100) hello, mr. bing. i mean the resture. (to the sacing for the sammilaaars this was so sponing. i mean, it's a little 
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)s room, monica but in the hisbuse two roblesg from the spret storing ross wi
+joeylen(60)f a flushing toirs, all right, alright. i am to play and he has this happy p
+chandlerlen(80)he guest of honolver. it's not all the pretty think i'm gonna be having at the perientall are th
+monicalen(100) hello, mr. bing one and rachel clest someone monkey. okay, she has a big bick up the helle's are they with me. i me
+
+
+
+DIVERSITY: 1.0
+SCENElen(60) etch-a-sketch i ac-steps offer), seched he down. clubble. kneat here? hung 
+joeylen(60) stroking coma guy blange the.... (sudd on wes room, weh! [chandler to joey)
+chandlerlen(80) (finally noticing the pre) so sneatated sure to the cote me with my the without heart his dess)
+monicalen(100) hello, mr. bing? was time un two march foss... oh? and, that's carol. chandler, ochibs theme minutes we and hey. i 
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)nters with a bunkugulal flucba, rudhtoway, you're he goan... mankers runs pa
+joeylen(60)h-a-sketch is from life up? a lott gets the pery. it'll picketidencr? joey's
+chandlerlen(80) (finally noticing! what'll stavon'tly  it. the badys knows roble. ooh? you're thinking dea. (th
+monicalen(100) hello, mr. bing oped. all smembir dowe. i luts sure. (hunds his date) ock. ill just the best hir, and ma, br!fa-thu
+
+
+

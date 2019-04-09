@@ -1,0 +1,140 @@
+EPOCH 0
+{'loss': 2.3051050353473417}
+
+DIVERSITY: 0.2
+SCENElen(60)r, when monica entere th the the sere the the shere the the the the the ment
+joeylen(60)d rachel's, monica the sheull[s whe sere the shere the the sere the shere th
+chandlerlen(80)uest of honour) and the se: the the the sere the she the the shere the the the the the the shere
+monicalen(100) hello, mr. binght the saut the the theer the mere the the theer and the sountere the sare and and you she theer she
+
+
+
+DIVERSITY: 0.5
+SCENElen(60) so, the etch-a-miss the the sere and the caull charitee right the a mendy's
+joeylen(60)f coma guy.  his is aplas the the and the aricaull athere the mant like ster
+chandlerlen(80)ng the guest of the macres. i wart you goent and ut i w’tens on the chunds it inder allusting th
+monicalen(100) hello, mr. bingos the shee this mached i musting the beet pless do doung think and rachel, where and me ineally it 
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)there is the souy. ho haste cinsen enom....i... (then chonowbor. ghe ciched 
+joeylen(60) from the bathrom.)(en, ass aloffick rechs say wick) i sapt. jo!y gett, ae f
+chandlerlen(80) of honour) surp, uple( is mredsong]'s shearbittly. i wall tero. evers lasp scusseens... me nick
+monicalen(100) hello, mr. bing eant yeulleves my'singonr wey andys guss mcpect yourrjuline fi-ded i mance and ro'ster..... ok, eff
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)monica enters wi hoom) aht audrece,  omis, wete? plisorgrdrescharli.bosher] 
+joeylen(60), closely followace whend? how..? rp, ithomerf.y. ne. iq'llinge? mobiedth! n
+chandlerlen(80)nally noticing tting like'y: letch.?uss) i loont jo sing and  tre"ds. wevernersmend....? i manie
+monicalen(100) hello, mr. bingid.foy a verlyonifling.. (ches chyelerow! i lat. thimod to theaken...hing!n'romennsh..)ed therereln 
+
+
+
+EPOCH 9
+{'loss': 1.3100257890777856}
+
+DIVERSITY: 0.2
+SCENElen(60)he coma guy's room, rachel? (listens and it there. readbely about the strink
+joeylen(60)oma guy's room, it's just the shore about the belwever and there are stop da
+chandlerlen(80)nally noticing there with the should read if i have a little out of the phone) she's care all th
+monicalen(100) hello, mr. binger of the thing they stop it of the could get my life. and i mean, they're not gonna be one of the p
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)rges from the baby, mancel... you are while, not gets it! there enters.] oh,
+joeylen(60) emerges from the been too. i mean, you are why letter goes just of starine.
+chandlerlen(80)uest of honour) oh chandler so much like the bathroom) he's gonna sure of him... i think i'm tha
+monicalen(100) hello, mr. binger at the coule much care, all right. who,e they're guy makes a great they're been gan.... hell, i m
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)uess i'll see your dress, they he waid, like the reffferodhorm... drid. i ge
+joeylen(60)here stroking comer at toumas... you, i don't haue as not ceation, natge? oh
+chandlerlen(80) of honour) surple. why said you bill guy." in other nica, trailars? i'm all the play screak. (c
+monicalen(100) hello, mr. binghe out mokes at aplighe. om just was this... uh, i would care an- ranhel? now, 'moveres along'al min
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)flushing toilet him williring. or kind your than look ut. bill guys grookhr 
+joeylen(60)f a flushing toingly she love (to a by snow, everys without. if every ehe fa
+chandlerlen(80) (finally noticing. you dump staying... they do creey as my last te. wig torthing? (mornicatan..
+monicalen(100) hello, mr. binger dackerate bad one...foor, melassh, vouks go... get. 'cacol: guys ot? helm. theere. that that weit
+
+
+
+EPOCH 19
+{'loss': 1.137874920325041}
+
+DIVERSITY: 0.2
+SCENElen(60)there is the souch on the phoebe and spone of aloni give a workes to the pre
+joeylen(60)e: monica and rachel) okay. it's a part me. already and squilking a break fr
+chandlerlen(80)honour) surprise thing that was just been still like me. and the stuff. i mean, she's a pickety.
+monicalen(100) hello, mr. binged that was a pretty contres on the bested that was just sorts to the door and so gonna be him a cra
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)scene: the coma came the tri(batter to timed. (shrights with a planke. he is
+joeylen(60) sound of a flusher and stops it to to the fasche for you. (to monica are th
+chandlerlen(80)ticing the guester... i don't be in my starled to the weith over? what're even to take my bed. i
+monicalen(100) hello, mr. binged that was a min. you're a place of the staids with my engerst plafe the best are me. i'm gonna be 
+
+
+
+DIVERSITY: 1.0
+SCENElen(60)ca and phoebe are. hi, mmjoine bobbuyfrieft bowe. you be in a baby. there ar
+joeylen(60) the sound of a diep did. i... (they and let to him) what that whole per wig
+chandlerlen(80)honour) surprisear and rachel) mana alan. (there's beepen to the last takes it looked frof timab
+monicalen(100) hello, mr. binging at rachel and op any on the besesy?"? oh, i, the. follinend ittly know it. i we're son't was a b
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)e is the sound of hims what is takeoof the sishing thein fikets had my ske, 
+joeylen(60) i'll see you are make nothing dops...thatpigh. at, no un a dep to ut.) i me
+chandlerlen(80) (finally noticias! my dors's in't befat head? it wantat it lijed brown) ben. ime, how's the ide
+monicalen(100) hello, mr. binged to highty greect of can cile toon. what'rry. now thinkic had after. afund a mns stucks room, duir
+
+
+
+EPOCH 24
+{'loss': 1.0947525477644025}
+
+DIVERSITY: 0.2
+SCENElen(60)nters with a bunce. i was a cattercs to another modonors where? thar-whopent
+joeylen(60)and coma guy eme, alre! (he just been don't got to go to the stork just so g
+chandlerlen(80)ng the guest of the cards something... that's a little of the shoes. it's so heart some comes to
+monicalen(100) hello, mr. binguret the door. (joins the most gonna be on the sobrempor, and then he was a first on the table. (she
+
+
+
+DIVERSITY: 0.5
+SCENElen(60)o sign of coma graves there. you're alone. (listens) oh, you know, sorry. (h
+joeylen(60)y followed by phoebe, just so sprace. and she want to the moone her. everybo
+chandlerlen(80)ng the guest of the tood the point with me... it's a little of the discuss past me. we've gottin
+monicalen(100) hello, mr. bingurs her to too. what are you guys. i'm oververes the talking. short that a byen to do the stuff my l
+
+
+
+DIVERSITY: 1.0
+SCENElen(60) etch-a-sketch in one of trymbet, in the othed excett his dep aportestering,
+joeylen(60) i feel good! ....stell, everything what abile his wari'le, prefat call a to
+chandlerlen(80)honour) surprise. other with rachel it him about this break, having the talk to her) oh my miss 
+monicalen(100) hello, mr. bingilis poesiat besibeds that's back) alling on about someone wholing? that's her fay? i should and con
+
+
+
+DIVERSITY: 1.2
+SCENElen(60)flushing toilet bea. that's no blow omabing wold first, gormotzer is not rac
+joeylen(60)eryone about the too? twes up winds to car is so cook us out if i's like two
+chandlerlen(80) of honour) surplas handing and the hop. in the talking to cumpalless, ahouting off agome for it
+monicalen(100) hello, mr. bingaon! if veick thoug, jumpled? bye's gone, oma! what the need that hope! yes, ok, sweety... the monic
+
+
+

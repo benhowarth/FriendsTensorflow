@@ -1,0 +1,21 @@
+Many things went wrong:
+syntax error with string concat (RIGHT BEFORE THE WRITE TO FILE AAAH)
+Also took words from last sentence analysed wordlist
+and generated one start index at the beginning of text gen so all the lines start the same
+
+
+OUTPUT:
+
+Lines: 6987
+Using TensorFlow backend.
+[[0, 10], [4, 20], [5, 20], [3, 20]]
+2019-04-03 16:10:06.827268: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+Epoch 1/50
+ - 302s - loss: 3.7187
+
+----- Generating text after Epoch: 0
+diversity: 0.2
+SCENE: -up of rachel, eagerly awaiting ross's arrival... not knowing he is getting the the to the the
+joey: -up of rachel, eagerly awaiting ross's arrival... not knowing he is getting a the you to the the the a of to
+chandler: -up of rachel, eagerly awaiting ross's arrival... not knowing he is getting to the you the the who to the the the
+monica: -up of rachel, eagerly awaiting ross's arrival... not knowing he is getting to the the a the of of the the the
